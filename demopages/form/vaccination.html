@@ -24,7 +24,7 @@
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
                 <div>
-                    <h4>Gender</h4>
+                    Gender
                     <label for="male">Male</label>
                     <input type="radio" name="gender" id="male" value="male" placeholder="Select Gender" required>
                     <label for="female">Female</label>
@@ -32,11 +32,11 @@
                 </div>
                 <div>
                     <label for="phone">Phone Contacts</label>
-                    <input type="tel" name="phone" id="phone" min="5" max="11" placeholder="09*********" required>
+                    <input type="tel" name="phone" id="phone" minlength="5" maxlength="11" placeholder="09*********" required>
                     <label for="occupation">Occupation</label>
                     <input type="text" name="occupation" id="occupation" placeholder="Enter Occupation" required>
                     <div>
-                        <h3>Address</h3> 
+                        Address 
                         <label for="street">Street</label>
                         <input type="text" name="street" id="street" placeholder="Enter Street" required>
                         <label for="barangay">Barangay</label>
@@ -47,44 +47,42 @@
                 </div>
                 <h3>Medical History</h3>
                 <div>
-                    <h3>Have you been diagnosed with COVID-19</h3>
+                    <h5>Have you been diagnosed with COVID-19</h5>
                     <div>
                         <label for="beenDiagnosed">Yes</label>
-                        <input type="radio" name="beenDiagnosed" id="yes" value="yes" required>  
-                    </div>
-                    <div>
+                        <input type="radio" name="beenDiagnosed" id="yes" value="yes" required> 
                         <label for="beenDiagnosed">No</label>
                         <input type="radio" name="beenDiagnosed" id="no" value="no" required>  
                     </div>
-                    <h3>Please check all symptoms that apply:</h3>
+                    <h5>Please check all symptoms that apply:</h5>
                     <div>
                         <label for="loss">Loss of taste/smell</label>
-                        <input type="checkbox" name="loss" id="loss" required>
+                        <input type="checkbox" name="loss" id="loss">
                         <label for="breathing">Difficulty breathing</label>
-                        <input type="checkbox" name="breathing" id="breathing" required>
+                        <input type="checkbox" name="breathing" id="breathing">
                         <label for="cough">Cough</label>
-                        <input type="checkbox" name="cough" id="cough" required>
+                        <input type="checkbox" name="cough" id="cough">
                         <label for="runnynose">Runny Nose</label>
-                        <input type="checkbox" name="runnynose" id="runnynose" required>
+                        <input type="checkbox" name="runnynose" id="runnynose">
                         <label for="bodyaches">Body Aches</label>
-                        <input type="checkbox" name="bodyaches" id="bodyaches" required>
+                        <input type="checkbox" name="bodyaches" id="bodyaches">
                         <label for="sorethroat">Sore Throat</label>
-                        <input type="checkbox" name="sorethroat" id="sorethroat" required>
+                        <input type="checkbox" name="sorethroat" id="sorethroat">
                     </div>
                     <div>
                         <label for="scheduleddate">Specify Vaccination Date</label>
-                        <input type="date" name="scheduleddate" id="scheduleddate" placeholder="mm/dd/yyyy" required>
+                        <input type="date" name="scheduleddate" id="scheduleddate" required>
                         <div>
                             <label for="prioritygroup">Priority Group</label>
                             <input type="text"  name="prioritygroup" id="prioritygroup" placeholder="Select Priority Group" required>
-                            <datalist id="prioritygroup">
+                            <select name="prioritygroup" id="prioritygroup">
                                 <option value="Health Workers"></option>
                                 <option value="Senior Citizen"></option>
                                 <option value="People with comorbidities"></option>
                                 <option value="Essential Workers"></option>
                                 <option value="Med Student"></option>
                                 <option value="Vaccine for all"></option>
-                            </datalist>
+                            </select>
                         </div>
                     </div>
                     <div>
