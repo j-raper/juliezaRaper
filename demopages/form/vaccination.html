@@ -7,6 +7,7 @@
         <form>
             <h2>COVID-19 Vaccination Scheduling Form in Philippines</h2>
             <div>
+                <h3>Personal Information</h3>
                 <label for="firstname">First Name:</label>
                 <input type="text" name="firstname" id="firstname" placeholder="Enter First Name" required>
                 <label for="lastname">Last Name:</label>
@@ -43,16 +44,14 @@
                         <input type="text" name="city" id="city" placeholder="Enter City" required>
                     </div>
                 </div>
-                <h3>Medical History</h3>
                 <div>
+                    <h3>Medical History</h3>
                     <p>Have you been diagnosed with COVID-19?</p> 
                         <label for="beenDiagnosed">No</label>
                         <input type="radio" name="beenDiagnosed" id="no" value="no" required> 
-                        <label for="beenDiagnosed">Yes</label required>
-                        <input type="radio" name="beenDiagnosed" id="yes" value="yes"> 
-                    </div>
+                        <label for="beenDiagnosed">Yes</label>
+                        <input type="radio" name="beenDiagnosed" id="yes" value="yes" required> 
                     <p>Please check all symptoms that apply:</p>
-                    <div>
                         <label for="loss">Loss of taste/smell</label>
                         <input type="checkbox" name="loss" id="loss">
                         <label for="breathing">Difficulty breathing</label>
@@ -65,26 +64,27 @@
                         <input type="checkbox" name="bodyaches" id="bodyaches">
                         <label for="sorethroat">Sore Throat</label>
                         <input type="checkbox" name="sorethroat" id="sorethroat">
-                    </div>
+                </div>
+                <div>
+                    <h3>Vaccination Schedule</h3>
+                    <label for="scheduleddate">Specify Vaccination Date:</label>
+                    <input type="date" name="scheduleddate" id="scheduleddate" required>
                     <div>
-                        <label for="scheduleddate">Specify Vaccination Date:</label>
-                        <input type="date" name="scheduleddate" id="scheduleddate" required>
-                        <div>
-                            <label for="prioritygroup">Priority Group:</label>
-                            <select name="prioritygroup" id="prioritygroup">
-                                    <option value="prioritygroup">Select Priority Group:</option>
-                                    <option value="HealthWorkers">Health Workers</option>
-                                    <option value="SeniorCitizen">Senior Citizen</option>
-                                    <option value="PeopleWithComorbidities">People with comorbidities</option>
-                                    <option value="EssentialWorkers">Essential Workers</option>
-                                    <option value="MedStudent">Medical Students</option>
-                                    <option value="VaccineForAll">Vaccine for all</option>
-                            </select>
-                        </div>
+                        <label for="prioritygroup">Priority Group:</label>
+                        <select name="prioritygroup" id="prioritygroup">
+                                <option value="prioritygroup">Select Priority Group:</option>
+                                <option value="HealthWorkers">Health Workers</option>
+                                <option value="SeniorCitizen">Senior Citizen</option>
+                                <option value="PeopleWithComorbidities">People with comorbidities</option>
+                                <option value="EssentialWorkers">Essential Workers</option>
+                                <option value="MedStudent">Medical Students</option>
+                                <option value="VaccineForAll">Vaccine for all</option>
+                        </select>
                     </div>
-                    <div>
-                        <button type="reset">Reset</button>
-                        <button type="submit">Submit</button>
+                </div>
+                <div>
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit</button>
                     </div>
                 </div>
             </div>   
