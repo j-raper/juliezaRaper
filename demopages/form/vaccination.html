@@ -7,37 +7,36 @@
         <form>
             <h2>COVID-19 Vaccination Scheduling Form in Philippines</h2>
             <div>
-                <label for="firstname">First Name</label>
+                <label for="firstname">First Name:</label>
                 <input type="text" name="firstname" id="firstname" placeholder="Enter First Name" required>
-                <label for="lastname">Last Name</label>
+                <label for="lastname">Last Name:</label>
                 <input type="text" name="lastname" id="lastname" placeholder="Enter Last Name" required>
-                <label for="middlename">Middle Name (Optional)</label>
+                <label for="middlename">Middle Name: (Optional)</label>
                 <input type="text" name="middlename" id="middlename" placeholder="Enter Middle Name">
-                <label for="suffix">Suffix</label>
+                <label for="suffix">Suffix:</label>
                 <input type="text" name="middlename" id="middlename" placeholder="Enter Suffix">
             </div>
             <div>
-                <label for="birthdate">Birthdate</label>
+                <label for="birthdate">Birthdate:</label>
                 <input type="date" name="birthdate" id="birthdate" required>
-                <label for="age">Age</label>
+                <label for="age">Age:</label>
                 <input type="number" name="age" id="age" min="1" placeholder="0" required>
-                <label for="email">Email</label>
+                <label for="email">Email:</label>
                 <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
                 <div>
-                    <!-- <p>Gender</p> -->
-                    <label for="male">Gender<span>   Male</span></label>
+                    <label for="male">Gender:<span> Male</span></label>
                     <input type="radio" name="gender" id="male" value="male" placeholder="Select Gender" required>
                     <label for="female">Female</label>
                     <input type="radio" name="gender" id="female" value="female" placeholder="Select Gender">
                 </div>
                 <div>
-                    <label for="phone">Phone Contacts</label>
+                    <label for="phone">Phone Contact:</label>
                     <input type="tel" name="phone" id="phone" minlength="5" maxlength="11" placeholder="09*********" required>
-                    <label for="occupation">Occupation</label>
+                    <label for="occupation">Occupation:</label>
                     <input type="text" name="occupation" id="occupation" placeholder="Enter Occupation" required>
                     <div>
                         <!-- <p>Address</p> -->
-                        <label for="street">Address<span>   </span>Street</span></label>
+                        <label for="street">Address:<span>Street</span></label>
                         <input type="text" name="street" id="street" placeholder="Enter Street" required>
                         <label for="barangay">Barangay</label>
                         <input type="text" name="barangay" id="barangat" placeholder="Enter Barangay" required>
@@ -47,9 +46,8 @@
                 </div>
                 <h3>Medical History</h3>
                 <div>
-                    <!-- <p>Have you been diagnosed with COVID-19?</p> -->
-                    <div>
-                        <p>Have you been diagnosed with COVID-19?</p> <label for="beenDiagnosed">No</label>
+                    <p>Have you been diagnosed with COVID-19?</p> 
+                        <label for="beenDiagnosed">No</label>
                         <input type="radio" name="beenDiagnosed" id="no" value="no" required> 
                         <label for="beenDiagnosed">Yes</label required>
                         <input type="radio" name="beenDiagnosed" id="yes" value="yes"> 
@@ -70,10 +68,10 @@
                         <input type="checkbox" name="sorethroat" id="sorethroat">
                     </div>
                     <div>
-                        <label for="scheduleddate">Specify Vaccination Date</label>
+                        <label for="scheduleddate">Specify Vaccination Date:</label>
                         <input type="date" name="scheduleddate" id="scheduleddate" required>
                         <div>
-                            <label for="prioritygroup">Priority Group</label>
+                            <label for="prioritygroup">Priority Group:</label>
                             <select name="prioritygroup" id="prioritygroup">
                                     <option value="prioritygroup">Select Priority Group:</option>
                                     <option value="HealthWorkers">Health Workers</option>
