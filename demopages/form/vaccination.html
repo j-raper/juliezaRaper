@@ -24,16 +24,15 @@
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
                 <div>
+                    <h4>Gender</h4>
                     <label for="male">Male</label>
                     <input type="radio" name="gender" id="male" value="male" placeholder="Select Gender" required>
-                </div>
-                <div>
                     <label for="female">Female</label>
                     <input type="radio" name="gender" id="female" value="female" placeholder="Select Gender" required>
                 </div>
                 <div>
                     <label for="phone">Phone Contacts</label>
-                    <input type="tel" name="phone" id="phone" placeholder="09*********" required>
+                    <input type="tel" name="phone" id="phone" min="5" max="11" placeholder="09*********" required>
                     <label for="occupation">Occupation</label>
                     <input type="text" name="occupation" id="occupation" placeholder="Enter Occupation" required>
                     <div>
@@ -46,7 +45,7 @@
                         <input type="text" name="city" id="city" placeholder="Enter City" required>
                     </div>
                 </div>
-                <h2>Medical History</h2>
+                <h3>Medical History</h3>
                 <div>
                     <h3>Have you been diagnosed with COVID-19</h3>
                     <div>
@@ -85,6 +84,7 @@
                                 <option value="Essential Workers"></option>
                                 <option value="Med Student"></option>
                                 <option value="Vaccine for all"></option>
+                            </datalist>
                         </div>
                     </div>
                     <div>
