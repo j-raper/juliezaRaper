@@ -5,11 +5,62 @@
     </head>
     <body>
         <form>
-            <label>Name</label>
-            <input>
-            <label>Password</label>
-            <input>
-            <button>Submit</button>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter Name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" min="1" max="2OO" step="1" required>
+            </div>
+            <div>
+                <label for="date">Birthdate</label>
+                <input type="data" name="date" id="date">
+            </div>
+            <div>
+                for checkbox **symptoms
+                <div>
+                    <label for="**">**</label>
+                    <input type="checkbox" name="**" id="**">
+                </div>
+                <div>
+                    <label for="**">**</label>
+                    <input type="checkbox" name="**" id="**">
+                </div>
+                <div>
+                    <label for="**">**</label>
+                    <input type="checkbox" name="**" id="**">
+                </div>
+            <div>
+                for Gender
+                <div>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                </div>
+                <div>
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                </div>
+            </div>
+            <div>
+                <label for="**">**</label>
+                <datalist>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </datalist>
+            </div>
+        
+            <div>
+                <label>Password</label>
+                <input type="password" name="password"id="password" placeholder="Enter Password" required>
+            </div>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
         </form>
     </body>
 </html> 
