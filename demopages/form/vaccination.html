@@ -18,15 +18,15 @@
             </div>
             <div>
                 <label for="birthdate">Birthdate</label>
-                <input type="date" name="birthdate" id="birthdate" placeholder="mm/dd/yyyy" required>
+                <input type="date" name="birthdate" id="birthdate" required>
                 <label for="age">Age</label>
-                <input type="number" name="age" id="age" minlength="1" maxlength="2OO" placeholder="0" required>
+                <input type="number" name="age" id="age" min="1" placeholder="0" required>
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
                 <div>
                     <!-- <p>Gender</p> -->
-                    <label for="male">Gender<br><span>Male</span></label required>
-                    <input type="radio" name="gender" id="male" value="male" placeholder="Select Gender">
+                    <label for="male">Gender<span>Male</span></label>
+                    <input type="radio" name="gender" id="male" value="male" placeholder="Select Gender" required>
                     <label for="female">Female</label>
                     <input type="radio" name="gender" id="female" value="female" placeholder="Select Gender">
                 </div>
@@ -37,7 +37,7 @@
                     <input type="text" name="occupation" id="occupation" placeholder="Enter Occupation" required>
                     <div>
                         <!-- <p>Address</p> -->
-                        <label for="street">Address<br><span>Street</span></label>
+                        <label for="street">Address<span>Street</span></label>
                         <input type="text" name="street" id="street" placeholder="Enter Street" required>
                         <label for="barangay">Barangay</label>
                         <input type="text" name="barangay" id="barangat" placeholder="Enter Barangay" required>
@@ -74,13 +74,15 @@
                         <input type="date" name="scheduleddate" id="scheduleddate" required>
                         <div>
                             <label for="prioritygroup">Priority Group</label>
-                            <select name="prioritygroup" id="prioritygroup" placeholder="Select Priority Group" required>
-                                <option value="Health Workers">Health Workers</option>
-                                <option value="Senior Citizen">Senior Citizen</option>
-                                <option value="People with comorbidities">People with comorbidities</option>
-                                <option value="Essential Workers">Essential Workers</option>
-                                <option value="Med Student">Medical Students</option>
-                                <option value="Vaccine for all">Vaccine for all</option>
+                            <select name="prioritygroup" id="prioritygroup">
+                                <datalist name="prioritygroup" id="prioritygroup" placeholder="Select Priority Group" required>
+                                    <option value="Health Workers">Health Workers</option>
+                                    <option value="Senior Citizen">Senior Citizen</option>
+                                    <option value="People with comorbidities">People with comorbidities</option>
+                                    <option value="Essential Workers">Essential Workers</option>
+                                    <option value="Med Student">Medical Students</option>
+                                    <option value="Vaccine for all">Vaccine for all</option>
+                                </datalist>
                             </select>
                         </div>
                     </div>
