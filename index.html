@@ -11,34 +11,44 @@
     <header class="header">
         <h1>Digital Portfolio</h1>
     </header>
-    <div class="section">
-        <h3>Girl who<br>knows tech</h3>
-    </div>
-    <div class="logoPic">
-        <img src="img/logoPic.png" alt="Logo Pic">
-    </div>
-    
-       
-    <h2>Outputs</h2>
-        <img src="img/TechTrends.jfif" alt="techno trends">         
-        <a href="demopages/gallery/gallery.html" target="_blank">Technology Trends Gallery</a>
-        <img src="img/Restaurant.jfif" alt="restaurant">
-        <a href="demopages/restaurant/myrestaurant.html" target="_blank">Restaurant Website</a>    
-        <img src="img/COVID-19.jpg" alt="covid">
-        <a href="demopages/form/vaccination.html" target="_blank">COVID-19 Vaccination Scheduling Form</a> 
-        <img src="img/tribute.jfif" alt="tribute">
-        <a href="demopages/tribute/tribute.html" target="_blank">Tribute Page</a>
-    <h2>About Me</h2>
-        <p>Good day.
-            I am Julieza Jane Bella A. Raper, currently studying for a Bachelor of Science in 
-            Computer Science. A 2nd-year student who took the course of Web Application 
+    <section class="banner">
+        <div>
+            <img src="img/logoPic.png" alt="Logo Pic" id="logoPic">
+            <div>
+                <h3>Girl who<br>knows tech</h3>
+            </div>  
+        </div>
+    </section>
+    <section class="outputs">
+        <h2>Outputs</h2>
+            <div class="col1">
+                <img src="img/TechTrends.jfif" alt="techno trends" id="img1">         
+                <img src="img/Restaurant.jfif" alt="restaurant" id="img2">
+            </div>
+            <div class="links">
+                <a href="demopages/gallery/gallery.html" target="_blank" id="link1">Technology Trends Gallery</a>
+                <a href="demopages/restaurant/myrestaurant.html" target="_blank" id="link2">Restaurant Website</a>
+            </div>
+            <div class="col2">
+                <img src="img/COVID-19.jpg" alt="covid" id="img3">         
+                <img src="img/tribute.jfif" alt="tribute" id="img4">
+            </div>
+            <div class="links"></div>
+                <a href="demopages/form/vaccination.html" target="_blank" id="link3">COVID-19 Vaccination Scheduling Form</a> 
+                <a href="demopages/tribute/tribute.html" target="_blank" id="link4">Tribute Page</a>
+    </section>
+    <section class="aboutMe">
+        <h2>About Me</h2>
+        <p class="message">Good day.
+            I am <strong>Julieza Jane Bella A. Raper</strong>, currently studying for a <em>Bachelor of Science in 
+            Computer Science</em> . A 2nd-year student who took the course of Web Application 
             Development at The University of the Immaculate Concepcion. As I created this project
-            - My Digital Portfolio, I hope you will enjoy this website as I also enjoy creating it.
-        </p>
-        <p class="message">My Digital Portfolio showcases my Web App Development journey. This website is
+            - <em>My Digital Portfolio</em>, I hope you will enjoy this website as I also enjoy creating it.
+            <br><br>My Digital Portfolio showcases my Web App Development journey. This website is
             able you to reckon the outputs that I made. Accommodate you with information 
             such as technology trends, keys to building a restaurant, get the 
             COVID-19 Vaccination Form, ultimately, a Tribute Page where I put my admiration
             of this person who inpires me with this journey. Enjoy and have fun!</p>
+    </section>
     </body>
 </html>
