@@ -34,7 +34,7 @@ h3{
 }
 
 
-#logoPic{
+.logoPic{
     display: flex;
     justify-content: left;
     margin-top: 50px;
