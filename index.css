@@ -22,8 +22,10 @@
 }
 .section,h3{
     text-transform: initial;
-    color: black;
-    
+    color: black;   
+}
+.section,p{
+    color: red;
 }
 
 #logoPic{
