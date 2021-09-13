@@ -20,13 +20,14 @@
     border: black solid;
     height: 290px;
 }
-.section,h3{
-    text-transform: initial;
-    color: black;   
-}
-.section,p{
+
+h3{
     color: red;
+    text-align: right;
+    text-transform: capitalize;
+    font-family: cursive;
 }
+
 
 #logoPic{
     display: flex;
