@@ -1,9 +1,26 @@
 .header{
     color: black;
     font-size: medium;
-    position: relative;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: dimgray;
+    border: black solid;
+    width: -webkit-fill-available;
+    height: 80px;
 }
 
+.section{
+    color: black;
+    font-size: medium;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color:floralwhite;
+    border: black solid;
+    width: -webkit-fill-available;
+    height: 300px;
+}
 #logoPic{
     display: flex;
     justify-content: left;
