@@ -10,30 +10,28 @@
     height: 80px;
 }
 
-.section{
+.section {
     color: black;
     font-size: medium;
-    position: relative;
-    top: 130px;
+    position: static;
+    margin-top: 120px;
     left: 0px;
-    background-color:floralwhite;
+    background-color: floralwhite;
     border: black solid;
-    width: -webkit-fill-available;
-    height: 300px;
+    height: 290px;
 }
 
 #logoPic{
     display: flex;
     justify-content: left;
-    margin: 100px;
-    width: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 300px;
 }
 
 h1{
     text-align: center;
     font-style: italic;
-    font-family: 'Segoe UI', Tahoma, 
-    Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
-    serif
 }
