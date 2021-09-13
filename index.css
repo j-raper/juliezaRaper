@@ -44,8 +44,8 @@ h1{
     text-transform: uppercase;
 }
 
-#message{
+.message{
     font-size: 34px;
     font-weight: initial;
-
+    color: seagreen;
 }
