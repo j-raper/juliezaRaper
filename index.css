@@ -35,3 +35,9 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
 }
+
+#message{
+    font-size: 34px;
+    font-weight: initial;
+    
+}
