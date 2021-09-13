@@ -23,9 +23,14 @@
 
 h3{
     color: red;
-    text-align: right;
-    text-transform: capitalize;
-    font-family: cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 66px;
+    letter-spacing: 5px;
+    padding-left: 403px;
+    margin-top: 48px;
 }
 
 
