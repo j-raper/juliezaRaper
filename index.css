@@ -14,7 +14,7 @@
     color: black;
     font-size: medium;
     position: fixed;
-    top: 0px;
+    top: 130px;
     left: 0px;
     background-color:floralwhite;
     border: black solid;
@@ -25,6 +25,15 @@
     display: flex;
     justify-content: left;
     margin: 100px;
+    width: 50px;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    serif
 }
 
 
