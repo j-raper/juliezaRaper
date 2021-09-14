@@ -1,0 +1,104 @@
+body{
+    background-color: #6F4C5B;
+}
+
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #F5E8C7;
+    border: #9E7777 solid;
+    width: -webkit-fill-available;
+
+    height: 61px;
+}
+h1{
+    font-family: monospace;
+    color: #6F4C5B;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 11px;
+    font-size: 36px;
+}
+#imgAda{
+    margin-block-end: -309px;
+    width: 271px;
+    margin-top: -64px;
+    margin-left: -62px;
+}
+.banner{
+    color: black;
+    font-size: medium;
+    margin-top: 63px;
+    left: 0px;
+    background-color: #9E7777;
+    border: black solid;
+    height: 408px;
+    width: -webkit-fill-available;
+}
+.description{
+    margin-right: 28px;
+    text-align: justify;
+    color: ghostwhite;
+    margin-left: 230px;
+    margin-top: 24px;
+    font-size: 18px;
+}   
+#readmore{
+    color: ghostwhite;
+    margin-left: 228px;
+}
+#readmore:hover{
+    background-color: slateblue;
+}
+h2{
+    font-size: 102px;
+    text-align: right;
+    font-family: 'Allison', cursive;
+    margin-right: 35px;
+    margin-block-end: -66px;
+    margin-top: 4px;
+    color: #6F4C46;
+    word-spacing: 25px
+}
+.information #imgfor{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 100px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 34px;
+}
+ol{
+    text-align: left;
+    color: white;
+    margin-left: 175px;
+    margin-top: 81px;
+    font-size: 15px;
+    word-spacing: 3px;
+    font-family: 'Urbanist', sans-serif;
+}
+.information h3{
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    margin-left: 170px;
+    margin-block-end: -66px;
+    margin-top: -52px;
+    color: black;
+    word-spacing: 3px;
+}
+.information p{
+    text-align: left;
+    color: white;
+    margin-left: 190px;
+    margin-top: 81px;
+    font-size: 15px;
+    word-spacing: 3px;
+    font-family: 'Urbanist', sans-serif;
+}
+#imgAlgo{
+    width: 400px;
+}
