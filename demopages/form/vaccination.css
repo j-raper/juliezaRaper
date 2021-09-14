@@ -1,0 +1,60 @@
+body{
+    background-color: #5F7A61;
+}
+
+header{
+    color: #444941;
+    font-size: medium;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #7FC8A9;
+    border: black solid;
+    width: -webkit-fill-available;
+    height: 80px;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.information{
+    color: black;
+    font-size: 18px;
+    margin-top: 100px;
+    left: 0px;
+    background-color: #D5EEBB;
+    border: black solid;
+    height: 408px;
+    width: -webkit-fill-available;
+}
+
+.schedule{
+    color: black;
+    font-size: 18px;
+    margin-top: 30px;
+    left: 0px;
+    background-color: #D5EEBB;
+    border: black solid;
+    height: 180px;
+    width: -webkit-fill-available;
+}
+
+.personalInformation{
+    margin-left: 30px;
+}
+
+.scheduleInformation{
+    margin-left: 30px;
+}
+
+p{
+    font-weight: bolder;
+}
+
+.buttons{
+    margin-left: 30px;
+    margin-top: 30px;
+}

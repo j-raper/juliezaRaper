@@ -2,11 +2,20 @@
 <html>
     <head>
         <title>COVID-19 Vaccination Scheduling Form</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Julieza Raper - Digital Portfolio</title>
+        <link rel="stylesheet" href="vaccination.css">
+    <!-- for font style -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     </head>
     <body>
-        <form>
+        <header class="header">
             <h2>COVID-19 Vaccination Scheduling Form in Philippines</h2>
-            <div>
+        </header>
+        <section class="information">
+            <div class="personalInformation">
                 <h3>Personal Information</h3>
                 <label for="firstname">First Name:</label>
                 <input type="text" name="firstname" id="firstname" placeholder="Enter First Name" required>
@@ -17,7 +26,7 @@
                 <label for="suffix">Suffix:</label>
                 <input type="text" name="middlename" id="middlename" placeholder="Enter Suffix">
             </div>
-            <div>
+            <div class="personalInformation">
                 <label for="birthdate">Birthdate:</label>
                 <input type="date" name="birthdate" id="birthdate" required>
                 <label for="age">Age:</label>
@@ -44,50 +53,54 @@
                         <input type="text" name="city" id="city" placeholder="Enter City" required>
                     </div>
                 </div>
+                <h3>Medical History</h3>
+            <div class="personalInformation">
+                <p>Have you been diagnosed with COVID-19?</p> 
+                    <label for="beenDiagnosed">No</label>
+                    <input type="radio" name="beenDiagnosed" id="no" value="no" required> 
+                    <label for="beenDiagnosed">Yes</label>
+                    <input type="radio" name="beenDiagnosed" id="yes" value="yes" required> 
+                <p>Please check all symptoms that apply:</p>
+                    <label for="loss">Loss of taste/smell</label>
+                    <input type="checkbox" name="loss" id="loss">
+                    <label for="breathing">Difficulty breathing</label>
+                    <input type="checkbox" name="breathing" id="breathing">
+                    <label for="cough">Cough</label>
+                    <input type="checkbox" name="cough" id="cough">
+                    <label for="runnynose">Runny Nose</label>
+                    <input type="checkbox" name="runnynose" id="runnynose">
+                    <label for="bodyaches">Body Aches</label>
+                    <input type="checkbox" name="bodyaches" id="bodyaches">
+                    <label for="sorethroat">Sore Throat</label>
+                    <input type="checkbox" name="sorethroat" id="sorethroat">
+            </div>
+        </section>
+        <footer class="schedule">
+            <div class="scheduleInformation">
+                <h3>Vaccination Schedule</h3>
+                <label for="scheduleddate">Specify Vaccination Date:</label>
+                <input type="date" name="scheduleddate" id="scheduleddate" required>
                 <div>
-                    <h3>Medical History</h3>
-                    <p>Have you been diagnosed with COVID-19?</p> 
-                        <label for="beenDiagnosed">No</label>
-                        <input type="radio" name="beenDiagnosed" id="no" value="no" required> 
-                        <label for="beenDiagnosed">Yes</label>
-                        <input type="radio" name="beenDiagnosed" id="yes" value="yes" required> 
-                    <p>Please check all symptoms that apply:</p>
-                        <label for="loss">Loss of taste/smell</label>
-                        <input type="checkbox" name="loss" id="loss">
-                        <label for="breathing">Difficulty breathing</label>
-                        <input type="checkbox" name="breathing" id="breathing">
-                        <label for="cough">Cough</label>
-                        <input type="checkbox" name="cough" id="cough">
-                        <label for="runnynose">Runny Nose</label>
-                        <input type="checkbox" name="runnynose" id="runnynose">
-                        <label for="bodyaches">Body Aches</label>
-                        <input type="checkbox" name="bodyaches" id="bodyaches">
-                        <label for="sorethroat">Sore Throat</label>
-                        <input type="checkbox" name="sorethroat" id="sorethroat">
+                    <label for="prioritygroup">Priority Group:</label>
+                    <select name="prioritygroup" id="prioritygroup">
+                            <option value="prioritygroup">Select Priority Group:</option>
+                            <option value="HealthWorkers">Health Workers</option>
+                            <option value="SeniorCitizen">Senior Citizen</option>
+                            <option value="PeopleWithComorbidities">People with comorbidities</option>
+                            <option value="EssentialWorkers">Essential Workers</option>
+                            <option value="MedStudent">Medical Students</option>
+                            <option value="VaccineForAll">Vaccine for all</option>
+                    </select>
                 </div>
-                <div>
-                    <h3>Vaccination Schedule</h3>
-                    <label for="scheduleddate">Specify Vaccination Date:</label>
-                    <input type="date" name="scheduleddate" id="scheduleddate" required>
-                    <div>
-                        <label for="prioritygroup">Priority Group:</label>
-                        <select name="prioritygroup" id="prioritygroup">
-                                <option value="prioritygroup">Select Priority Group:</option>
-                                <option value="HealthWorkers">Health Workers</option>
-                                <option value="SeniorCitizen">Senior Citizen</option>
-                                <option value="PeopleWithComorbidities">People with comorbidities</option>
-                                <option value="EssentialWorkers">Essential Workers</option>
-                                <option value="MedStudent">Medical Students</option>
-                                <option value="VaccineForAll">Vaccine for all</option>
-                        </select>
-                    </div>
+            </div>
+            <div class="buttons">
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
                 </div>
-                <div>
-                    <button type="reset">Reset</button>
-                    <button type="submit">Submit</button>
-                    </div>
-                </div>
-            </div>   
-        </form>
+            </div>
+        </div>   
+        </footer>
+            
+
     </body>
 </html> 
