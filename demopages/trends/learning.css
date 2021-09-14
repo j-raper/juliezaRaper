@@ -1,0 +1,208 @@
+body{
+    background-color: #A4B787;
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #AA3A3A;
+    border: #F4F4F4 solid;
+    width: -webkit-fill-available;
+    height: 61px;
+}
+h1{
+    font-size: 26px;
+    margin-left: 10px;
+    color: black;
+}
+.freecodecamp{
+    background-color: #F8E4B7;
+    color: black;
+    font-size: medium;
+    margin-top: 100px;
+    left: 0px;
+    border: white solid;
+    height: 780px;
+    width: -webkit-fill-available;
+    display: inline-block;
+}
+#imgCC1{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+#imgCC2{
+    width: 350px;;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+#imgCC3{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+
+.codecampdescription #company{
+    font-size: 24px;
+    margin-bottom: -60px;
+    margin-left: 50px;
+}
+.codecampdescription #product{
+    font-size: 52px;
+    margin-left: 50px;
+    font-family: 'Anton', sans-serif;
+    color: #AA3A3A;
+    margin-bottom: -28px;
+}
+.codecampdescription #location{
+    font-size: 17px;
+    margin-left: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+}
+.codecampdescription #meaning{
+    font-size: 29px;
+    margin-left: 100px;
+    text-align: justify;
+    margin-right: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+#linkcodecamp{
+    font-size: 25px;
+    margin-left: 100px;
+    color: #AA3A3A;
+    font-weight: 500
+}
+#linkcodecamp:hover{
+    background-color: #F4F4F4;
+}
+
+
+.udemy{
+    background-color: #F8E4B7;
+    color: black;
+    font-size: medium;
+    margin-top: 50px;
+    left: 0px;
+    border: white solid;
+    height: 804px;
+    width: -webkit-fill-available;
+    display: inline-block
+}
+#imgUD1{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+#imgUD2{
+    width: 350px;;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+#imgUD3{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+.udemydescription #company{
+    font-size: 24px;
+    margin-bottom: -60px;
+    margin-left: 50px;
+}
+.udemydescription #product{
+    font-size: 52px;
+    margin-left: 50px;
+    font-family: 'Anton', sans-serif;
+    color: #AA3A3A;
+    margin-bottom: -28px;
+}
+.udemydescription #location{
+    font-size: 17px;
+    margin-left: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+}
+.udemydescription #meaning{
+    font-size: 29px;
+    margin-left: 100px;
+    text-align: justify;
+    margin-right: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+}
+#linkudemy{
+    font-size: 25px;
+    margin-left: 100px;
+    color: #AA3A3A;
+    font-weight: 500
+}
+#linkudemy:hover{
+    background-color: #F4F4F4;
+}
+
+.codecademy{
+    background-color: #F8E4B7;
+    color: black;
+    font-size: medium;
+    margin-top: 50px;
+    left: 0px;
+    border: white solid;
+    height: 810px;
+    width: -webkit-fill-available;
+    display: inline-block
+}
+#imgCA1{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+#imgCA2{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+#imgCA3{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+.codecademydescription #company{
+    font-size: 24px;
+    margin-bottom: -60px;
+    margin-left: 50px;
+}
+.codecademydescription #product{
+    font-size: 52px;
+    margin-left: 50px;
+    font-family: 'Anton', sans-serif;
+    color: #AA3A3A;
+    margin-bottom: -28px;
+}
+.codecademydescription #location{
+    font-size: 17px;
+    margin-left: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+}
+.codecademydescription #meaning{
+    font-size: 29px;
+    margin-left: 100px;
+    text-align: justify;
+    margin-right: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+}
+#linkcodecademy{
+    font-size: 25px;
+    margin-left: 100px;
+    color: #AA3A3A;
+    font-weight: 500
+}
+#linkcodecademy:hover{
+    background-color: #F4F4F4;
+}
