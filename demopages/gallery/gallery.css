@@ -1,0 +1,108 @@
+body{
+    background-color: #1b4965;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 185px;
+}
+
+.container .heading{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border: #CAE8D5 solid;
+    width: -webkit-fill-available;
+    height: 84px;
+    padding-bottom: 50px;
+    background-color: #62b6cb;
+}
+
+.container .heading h1{
+    font-size: 60px;
+    font-family: 'Slabo 27px', serif;
+    color: #252422;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 17px;
+    margin-bottom: 4px;
+    
+}
+.container .heading h1 span{
+    font-size: 65px;
+    font-family: 'Allison', cursive;
+    color: #033270;
+    text-align: right;
+    margin-right: 20px;
+    
+}
+.navigation{
+    text-align: center;
+    word-break: break-all;
+    word-spacing: 26px;
+}
+
+#bioHealth{
+    color: black;
+    word-spacing: 3px;
+    font-size: 18px;
+    text-decoration: none;
+}
+#learning{
+    color: black;
+    word-spacing: 3px;
+    font-size: 18px;
+    text-decoration: none;
+}
+#iot{
+    color: black;
+    word-spacing: 3px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#bioHealth:hover{
+    background-color: #CAE8D5;
+}
+
+#learning:hover{
+    background-color: #CAE8D5;
+}
+#iot:hover{
+    background-color: #CAE8D5;
+}
+
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container .box .column{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+.container .box .column img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+.container .btn{
+    margin-top: 10px;
+    background: #62b6cb;
+    padding: 15px 40px;
+    border-radius: 5px;  
+}
+
+/* .container .btn a{
+    color:black; 
+    font-size: 12px;
+    text-decoration: none;
+    letter-spacing: 3px;
+} */

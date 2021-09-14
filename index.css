@@ -125,10 +125,12 @@ body{
     margin-right: 115px;
     font-size: 23px;
     color: chocolate;
-    font-weight: bolder
+    font-weight: bolder;
+    text-decoration: none;
 }
 #link1:hover{
     background-color:lightgrey;
+    
 }
 #link2{
     line-height: 6.5;
@@ -136,10 +138,12 @@ body{
     font-size: 23px;
     margin-left: 267px;
     color: chocolate;
-    font-weight: bolder
+    font-weight: bolder;
+    text-decoration: none;
 }
 #link2:hover{
     background-color: lightgrey;
+    
 }
 #link3{
     line-height: 6.5;
@@ -148,10 +152,13 @@ body{
     font-size: 23px;
     margin-right: 196px;
     color: chocolate;
-    font-weight: bolder
+    text-decoration: none;
+    font-weight: bolder;
+    
 }
 #link3:hover{
     background-color: lightgrey;
+    
 }
 #link4{
     line-height: 6.5;
@@ -159,7 +166,10 @@ body{
     margin-left: 159px;
     font-size: 23px;
     color: chocolate;
-    font-weight: bolder
+    font-weight: bolder;
+    text-decoration: none;
+    
+
 }
 #link4:hover{
     background-color: lightgrey;
