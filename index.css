@@ -13,6 +13,56 @@ body{
     width: -webkit-fill-available;
     height: 80px;
 }
+.menu{
+    word-spacing: 7px;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 100px;
+    margin-top: -44px;
+    font-family: revert;
+    transition: 0.3s;
+    transition-property: all;
+}
+#homeMenu:hover{
+    background-color: black;
+}
+#outputMenu:hover{
+    background-color: oldlace;
+}
+#aboutMeMenu:hover{
+    background-color: oldlace;;
+}
+
+#homeMenu{
+    color: oldlace;
+}
+#outputMenu{
+    color: black;
+}
+#aboutMeMenu{
+    color: black;
+    word-spacing: 2px;
+}
+.mediaButtons{
+    word-spacing: 12px;
+    font-size: 28px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: -26px;
+}
+#facebook{
+    color: black;
+}
+#instagram{
+    color: black;
+}
+#twitter{
+    color: black;
+}
+#gmail{
+    color: black;
+}
+
 .outputs{
     background-color: honeydew;
     color: black;
@@ -23,7 +73,6 @@ body{
     height: 1400px;
     width: -webkit-fill-available;
     display: inline-block;
-    opacity: 0.9;
 }
 .outputs .col1{
     display: flex;
@@ -140,7 +189,7 @@ h3{
     width: 320px;
     border-color: blueviolet;
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 h1{
