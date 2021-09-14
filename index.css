@@ -127,7 +127,9 @@ body{
     color: chocolate;
     font-weight: bolder
 }
-
+#link1:hover{
+    background-color: honeydew;
+}
 #link2{
     line-height: 6.5;
     font-family: monospace;
@@ -135,6 +137,9 @@ body{
     margin-left: 267px;
     color: chocolate;
     font-weight: bolder
+}
+#link2:hover{
+    background-color: honeydew;
 }
 #link3{
     line-height: 6.5;
@@ -145,6 +150,9 @@ body{
     color: chocolate;
     font-weight: bolder
 }
+#link3:hover{
+    background-color: honeydew;
+}
 #link4{
     line-height: 6.5;
     font-family: monospace;
@@ -152,6 +160,9 @@ body{
     font-size: 23px;
     color: chocolate;
     font-weight: bolder
+}
+#link4:hover{
+    background-color: honeydew;
 }
 h2{
     text-align: center;
