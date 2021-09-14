@@ -1,58 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bio and Health Technology</title>
+    <link rel="stylesheet" href="biohealth.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Nunito:ital,wght@1,200&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
-<body>    
-    <h1>Bio and Health Technology</h1>
-        <div class="3D-Bioplotter">
-            <img src="img/3D-Bioplotter.jpg" alt="3D printing machine - 3D-Bioplotter">
-            <img src="img/3D-Bioplotter.jpg" alt="">
-            <img src="img/3D-Bioplotter.jpg" alt="">
-            <div class="description">
-                <p>EnvisionTEC</p> <!--company name-->
-                <p>3D-Bioplotter</p> <!--product name-->
-                <p>Gladbeck, Germany</p> <!--location-->
-                <p>Printing living human tissue using stem cell bio-ink has the potential 
-                    to reduce the storage of organs for lifesaving transplants.
-                    <br>The audience target of this machine technology is pharmaceutical development 
-                    and drug validation, and in the future will be used for medical 
-                    applications in clinical settings.</p>
-                <a href="https://envisiontec.com/3d-printers/3d-bioplotter/" target="_blank">Go to their page</a>
-            </div>
+<body> 
+    <header class="header">
+        <h1>Bio and Health Technology</h1>
+    </header>   
+    <section class="bioplotter">
+        <div>
+            <img src="img/3D-Bioplotter.jpg" alt="3D printing machine - 3D-Bioplotter" id="imgBH1">
+            <img src="img/3D-Bioplotter3.jpg" alt="" id="imgBH2">
+            <img src="img/3D-Bioplotter2.jpg" alt="" id="imgBH3">
         </div>
-        <div class="telemedicine">
-            <img src="img/telemedicine.png" alt="laptop and stethoscope">
-            <img src="img/telemedicine.png" alt="">
-            <img src="img/telemedicine.png" alt="">
-            <div class="description">
-                <p>Cigna's Evernoth</p> <!--company name-->
-                <p>MDLIVE</p> <!--product name-->
-                <p>Sunrise, Florida</p> <!--location-->             
-                <p>Designed to handle non-emergency medical conditions and can often 
-                    substitute for Doctor's Office visit for common sicknesses like 
-                    flu and fever.
-                    <br>The audience target of this kind of medical application are
-                    all humans who experience common conditions.</p>
-                <a href="https://mdlnext.mdlive.com/" target="_blank">Go to their page</a>                    
-            </div>
+        <div class="biodescription">
+            <p id="company">EnvisionTEC</p> <!--company name-->
+            <p id="product">3D-Bioplotter</p> <!--product name-->
+            <p id="location">Gladbeck, Germany</p> <!--location-->
+            <p id="meaning">Printing living human tissue using stem cell bio-ink has the potential 
+                to reduce the storage of organs for lifesaving transplants. The audience target of this machine technology is pharmaceutical development 
+                and drug validation, and in the future will be used for medical 
+                applications in clinical settings.</p>
+            <a href="https://envisiontec.com/3d-printers/3d-bioplotter/" target="_blank" id="linkBioplotter">Go to their page</a>
         </div>
-        <div class="daVinci">
-            <img src="img/daVinci_surgicalMachine.jpg" alt="da vinci surgical system">
-            <img src="img/daVinci_surgicalMachine.jpg" alt="">
-            <img src="img/daVinci_surgicalMachine.jpg" alt="">
-            <div class="description">
-                <p>Intuitive Surgical</p> <!--company name-->
-                <p>Da Vinci</p> <!--product name-->
-                <p>America, United States</p> <!--location-->
-                <p>It is a robot-assisted surgical system controlled by a surgeon that 
+        </div>
+    </section>
+    <section class="telemedicine">
+        <div>
+            <img src="img/telemedicine.png" alt="laptop and stethoscope" id="imgTM1">
+            <img src="img/telemedicine2.png " alt="" id="imgTM2">
+            <img src="img/telemedicine3.png" alt="" id="imgTM3">
+        </div>
+        <div class="teledescription">
+            <p id="company">Cigna's Evernoth</p> <!--company name-->
+            <p id="product">MDLIVE</p> <!--product name-->
+            <p id="location">Sunrise, Florida</p> <!--location-->             
+            <p id="meaning">Designed to handle non-emergency medical conditions and can often 
+                substitute for Doctor's Office visit for common sicknesses like 
+                flu and fever.
+                <br>The audience target of this kind of medical application are
+                all humans who experience common conditions.</p>
+            <a href="https://mdlnext.mdlive.com/" target="_blank" id="linkTeleMed">Go to their page</a>                    
+        </div>
+        </div>
+    </section>
+    <section class="daVinci">
+        <div>
+            <img src="img/daVinci_surgicalMachine.jpg" alt="da vinci surgical system" id="imgDV1">
+            <img src="img/daVinci_surgicalMachine2.jpg" alt="" id="imgDV2">
+            <img src="img/daVinci_surgicalMachine3.jpg" alt="" id="imgDV3">
+        </div> 
+        <div class="daVincidescription">
+            <p id="company">Intuitive Surgical</p> <!--company name-->
+            <p id="product">Da Vinci</p> <!--product name-->
+            <p id="location">America, United States</p> <!--location-->
+            <p id="meaning">It is a robot-assisted surgical system controlled by a surgeon that 
                     uses minimally invasive surgical instruments and 3D high-definition
                     visuals to enhance accuracy and control.
                     <br>The target audience of this machine technology is medical professionals,
                     especially surgeons. </p>
-                <a href="https://www.davincisurgery.com/da-vinci-systems/about-da-vinci-systems"
-                target="_blank">Go to their page</a>
-            </div>
+            <a href="https://www.davincisurgery.com/da-vinci-systems/about-da-vinci-systems"
+                target="_blank" id="linkdaVinci">Go to their page</a>
         </div>
+        </div>
+    </section>
     </body>
 </html>

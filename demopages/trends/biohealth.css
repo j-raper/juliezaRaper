@@ -1,0 +1,206 @@
+body{
+    background-color: #2978B5;
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #8AB6D6;
+    border: #11324D solid;
+    width: -webkit-fill-available;
+    height: 61px;
+}
+h1{
+    font-size: 26px;
+    margin-left: 10px;
+    color: black;
+}
+.bioplotter{
+    background-color: honeydew;
+    color: black;
+    font-size: medium;
+    margin-top: 100px;
+    left: 0px;
+    border: black solid;
+    height: 819px;
+    width: -webkit-fill-available;
+    display: inline-block;
+}
+#imgBH1{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+#imgBH2{
+    width: 350px;;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+#imgBH3{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+
+.biodescription #company{
+    font-size: 24px;
+    margin-bottom: -60px;
+    margin-left: 50px;
+}
+.biodescription #product{
+    font-size: 52px;
+    margin-left: 50px;
+    font-family: 'Anton', sans-serif;
+    color: #0061A8;
+    margin-bottom: -28px;
+}
+.biodescription #location{
+    font-size: 17px;
+    margin-left: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+}
+.biodescription #meaning{
+    font-size: 29px;
+    margin-left: 100px;
+    text-align: justify;
+    margin-right: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+#linkBioplotter{
+    font-size: 25px;
+    margin-left: 100px;
+    color: #2978B5;
+    font-weight: 500
+}
+#linkBioplotter:hover{
+    background-color: black;
+}
+.telemedicine{
+    background-color: honeydew;
+    color: black;
+    font-size: medium;
+    margin-top: 50px;
+    left: 0px;
+    border: black solid;
+    height: 813px;
+    width: -webkit-fill-available;
+    display: inline-block
+}
+#imgTM1{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+#imgTM2{
+    width: 350px;;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+#imgTM3{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+.teledescription #company{
+    font-size: 24px;
+    margin-bottom: -60px;
+    margin-left: 50px;
+}
+.teledescription #product{
+    font-size: 52px;
+    margin-left: 50px;
+    font-family: 'Anton', sans-serif;
+    color: #0061A8;
+    margin-bottom: -28px;
+}
+.teledescription #location{
+    font-size: 17px;
+    margin-left: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+}
+.teledescription #meaning{
+    font-size: 29px;
+    margin-left: 100px;
+    text-align: justify;
+    margin-right: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+}
+#linkTeleMed{
+    font-size: 25px;
+    margin-left: 100px;
+    color: #2978B5;
+    font-weight: 500
+}
+#linkBioplotter:hover{
+    background-color: black;
+}
+
+.daVinci{
+    background-color: honeydew;
+    color: black;
+    font-size: medium;
+    margin-top: 50px;
+    left: 0px;
+    border: black solid;
+    height: 810px;
+    width: -webkit-fill-available;
+    display: inline-block
+}
+#imgDV1{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+#imgDV2{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+#imgDV3{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+.daVincidescription #company{
+    font-size: 24px;
+    margin-bottom: -60px;
+    margin-left: 50px;
+}
+.daVincidescription #product{
+    font-size: 52px;
+    margin-left: 50px;
+    font-family: 'Anton', sans-serif;
+    color: #0061A8;
+    margin-bottom: -28px;
+}
+.daVincidescription #location{
+    font-size: 17px;
+    margin-left: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+}
+.daVincidescription #meaning{
+    font-size: 29px;
+    margin-left: 100px;
+    text-align: justify;
+    margin-right: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+}
+#linkdaVinci{
+    font-size: 25px;
+    margin-left: 100px;
+    color: #2978B5;
+    font-weight: 500
+}
+#linkdaVinci:hover{
+    background-color: black;
+}
