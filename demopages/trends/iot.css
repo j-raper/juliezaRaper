@@ -1,0 +1,205 @@
+body{
+    background-color: #171010;
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #865439;
+    border: #362222 solid;
+    width: -webkit-fill-available;
+    height: 61px;
+}
+h1{
+    font-size: 26px;
+    margin-left: 10px;
+    color: snow;
+}
+.terraSensor{
+    background-color: honeydew;
+    color: black;
+    font-size: medium;
+    margin-top: 100px;
+    left: 0px;
+    border: black solid;
+    height: 781px;
+    width: -webkit-fill-available;
+    display: inline-block;
+}
+#imgTS1{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+#imgTS2{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+#imgTS3{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+.terradescription #company{
+    font-size: 24px;
+    margin-bottom: -60px;
+    margin-left: 50px;
+}
+.terradescription #product{
+    font-size: 52px;
+    margin-left: 50px;
+    font-family: 'Anton', sans-serif;
+    color: #362222;
+    margin-bottom: -28px;
+}
+.terradescription #location{
+    font-size: 17px;
+    margin-left: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+}
+.terradescription #meaning{
+    font-size: 29px;
+    margin-left: 100px;
+    text-align: justify;
+    margin-right: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+}
+#linkterra{
+    font-size: 25px;
+    margin-left: 100px;
+    color: #362222; 
+    font-weight: 500
+}
+#linkterra:hover{
+    background-color: brown;
+}
+.smartlock{
+    background-color: honeydew;
+    color: black;
+    font-size: medium;
+    margin-top: 50px;
+    left: 0px;
+    border: black solid;
+    height: 781px;
+    width: -webkit-fill-available;
+    display: inline-block;
+}
+#imgSL1{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+#imgSL2{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+#imgSL3{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+.smartlockdescription #company{
+    font-size: 24px;
+    margin-bottom: -60px;
+    margin-left: 50px;
+}
+.smartlockdescription #product{
+    font-size: 52px;
+    margin-left: 50px;
+    font-family: 'Anton', sans-serif;
+    color: #362222;
+    margin-bottom: -28px;
+}
+.smartlockdescription #location{
+    font-size: 17px;
+    margin-left: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+}
+.smartlockdescription #meaning{
+    font-size: 29px;
+    margin-left: 100px;
+    text-align: justify;
+    margin-right: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+}
+#linksmartLock{
+    font-size: 25px;
+    margin-left: 100px;
+    color: #362222; 
+    font-weight: 500
+}
+#linksmartLock:hover{
+    background-color: brown;
+}
+
+.temperatureScanner{
+    background-color: honeydew;
+    color: black;
+    font-size: medium;
+    margin-top: 50px;
+    left: 0px;
+    border: black solid;
+    height: 852px;
+    width: -webkit-fill-available;
+    display: inline-block;
+}
+#imgSC1{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+#imgSC2{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+#imgSC3{
+    width: 350px;
+    margin-left: 50px;
+    margin-block-start: 50px;
+}
+.tempscandescription #company{
+    font-size: 24px;
+    margin-bottom: -60px;
+    margin-left: 50px;
+}
+.tempscandescription #product{
+    font-size: 52px;
+    margin-left: 50px;
+    font-family: 'Anton', sans-serif;
+    color: #362222;
+    margin-bottom: -28px;
+}
+.tempscandescription #location{
+    font-size: 17px;
+    margin-left: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+}
+.tempscandescription #meaning{
+    font-size: 29px;
+    margin-left: 100px;
+    text-align: justify;
+    margin-right: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+}
+#linktempscan{
+    font-size: 25px;
+    margin-left: 100px;
+    color: #362222; 
+    font-weight: 500
+}
+#linktempscan:hover{
+    background-color: brown;
+}
+

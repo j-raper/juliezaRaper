@@ -1,56 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart IoT Application</title>
+    <link rel="stylesheet" href="iot.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Nunito:ital,wght@1,200&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
 <body> 
-    <h1>Smart IoT Application</h1>
-        <div class="terraSensor">
-            <img src="img/terra_sensor.jpg" alt="green plant and an ambient sensor">
-            <img src="" alt="">
-            <img src="" alt="">
-            <div class="description">
-                <p>pcyno</p> <!--company/creator's name-->
-                <p>TERRA All-in-one Soil & Ambient Sensor</p> <!--product name-->
-                <p>United Kingdom</p> <!--location--> 
-                <p>Give enough data points to start understanding water usage, 
+    <header class="header">
+        <h1>Smart IoT Application</h1>
+    </header>
+    <section class="terraSensor">
+        <div>   
+            <img src="img/terra_sensor.jpg" alt="green plant and an ambient sensor" id="imgTS1">
+            <img src="img/terra_sensor2.jpg" alt="" id="imgTS2">
+            <img src="img/terra_sensor3.jpg" alt="" id="imgTS3">
+        </div>
+        <div class="terradescription">
+            <p id="company">pcyno</p> <!--company/creator's name-->
+            <p id="product">TERRA All-in-one Soil & Ambient Sensor</p> <!--product name-->
+            <p id="location">United Kingdom</p> <!--location--> 
+            <p id="meaning">Give enough data points to start understanding water usage, 
                     drainage and allow the users to begin experimenting with different 
-                    irrigation timings.
-                    <br>The audience target of this technology are 
+                    irrigation timings. The audience target of this technology are 
                     farmers or any agricultural professionals.</p>
-                    <a href="https://pycno.co/sensors" target="_blank">Go to their page</a>
-            </div>
+            <a href="https://pycno.co/sensors" target="_blank" id="linkterra">Go to their page</a>
         </div>
-        <div class="smartLock">
-            <img src="img/smartLock.jpg" alt="smart lock device for home security">
-            <img src="" alt="">
-            <img src="" alt="">
-            <div class="description">
-                <p>eufy</p> <!--company/creator's name-->
-                <p>Smart Lock Touch</p> <!--product name-->
-                <p>America, United States</p> <!--location-->  
-                <p>Recognizes the user's fingerprint in just 0.3 seconds and 
+    </section>
+    <section class="smartlock">
+        <div>
+            <img src="img/smartLock.jpg" alt="smart lock device for home security" id="imgSL1">
+            <img src="img/smartLock2.jpg" alt="" id="imgSL2">
+            <img src="img/smartLock3.jpg" alt="" id="imgSL3">
+        </div>
+        <div class="smartlockdescription">
+            <p id="company">eufy</p> <!--company/creator's name-->
+            <p id="product">Smart Lock Touch</p> <!--product name-->
+            <p id="location">America, United States</p> <!--location-->  
+            <p id="meaning">Recognizes the user's fingerprint in just 0.3 seconds and 
                     unlock the door. The main purpose of this smart technology 
-                    is to protect your privacy and security.
-                    <br>This smart technology is for anyone.</p>
-                <a href="https://us.eufylife.com/products/t8510" target="_blank">Go to their page</a>
-            </div>
+                    is to protect your privacy and security. This smart technology is for anyone.</p>
+            <a href="https://us.eufylife.com/products/t8510" target="_blank" id="linksmartLock">Go to their page</a>
         </div>
-        <div class="temperatureScanner">
-            <img src="img/temperature_scanner.jpg" alt="laptop and stethoscope">
-            <img src="" alt="">
-            <img src="" alt="">
-            <div class="description">
-                <p>Lide</p> <!--company/creator's namee-->
-                <p>LD-FR901 Android Aystem Face Recognition Temperature Scanner Camera</p> <!--product name-->
-                <p>Chongqing, China</p> <!--location-->
-                <p>High-quality body temperature detection and face recognition 
-                    that announces if users are wearing a mask or not.
-                    <br>The audience target of this smart technology are companies 
-                    or any establishment.</p>
-                <a href="https://www.lideturnstile.com/face-recognition-terminal_c5" target="_blank">Go to their page</a>
-            </div>
+    </section>
+    <section class="temperatureScanner">
+        <div>
+            <img src="img/temperature_scanner.jpg" alt="laptop and stethoscope" id="imgSC1"> 
+            <img src="img/temperature_scanner3.jpg" alt="" id="imgSC2">
+            <img src="img/temperature_scanner2.jpg" alt="" id="imgSC3">
+        </div>    
+        <div class="tempscandescription">
+            <p id="company">Lide</p> <!--company/creator's namee-->
+            <p id="product">LD-FR901 Android Aystem Face Recognition Temperature Scanner Camera</p> <!--product name-->
+            <p id="location">Chongqing, China</p> <!--location-->
+            <p id="meaning">High-quality body temperature detection and face recognition 
+                that announces if users are wearing a mask or not. The audience target of this smart technology are companies 
+                or any establishment.</p>
+            <a href="https://www.lideturnstile.com/face-recognition-terminal_c5" target="_blank" id="linktempscan">Go to their page</a>
         </div>
+    </section>  
     </body>
 </html>
 
