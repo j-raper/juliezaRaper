@@ -5,52 +5,90 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Restaurant</title>
+        <link rel="stylesheet" href="restaurant.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Lobster&family=Urbanist:wght@100&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     </head>
     <body>
-        <header>
-            <h3>Ethereal Restaurant</h3>
-            <p>welcome message</p>
-            <img src="img/banner1.jfif" alt="">
-            <img src="img/banner2.jfif" alt="">
-            <img src="img/banner3.jfif" alt="">
-        </header>
-        <section>
-            <div class="topNotch"></div>
-                <h1>Top Notch Dishes</h1><br>
-                    <img src="img/topNotch1.jfif" alt="">
-                    <p>CHINESE TURNIP CAKE
-                        <br>Festive dish for Chinese holidays, including Chinese New Year.
-                        <br>Php 1,500.00</p>
-                    <img src="img/topNotch2.jfif" alt="">
-                    <p>BEEFSTEAK
-                        <br>Beefsteak with garlic and parsley sauce.
-                        <br>Php 800.00</p>
-                    <img src="img/topNotch3.jfif" alt="">
-                    <p>MUSCHEL-SPAGHETTI IN TOMATENSUGO
-                        <br>Both the spaghetti and the mussels cook together with the 
-                        tomato sauce in just one saucepan.
-                        <br>Php 1,200.00</p>
+        <header class="header">
+            <h1>Ethereal<br><span>Restaurant</span></h1>
+            <div class="menu">
+                <a href="#banner" id="homeMenu">Home</a>
+                <a href="#topNotch" id="topNotchMenu">Products</a>
+                <a href="#others" id="dealsMenu">Offers</a>
+                <a href="#contacts" id="contactsMenu">Contact Us</a>
             </div>
-            <div class="options">
-                <h2>Latest Deals</h2><br>
-                    <img src="img/latestDeals.png" alt="">
-                <h2>Menus</h2>
-                    <img src="img/menu.jfif" alt="">
-                <h2>Online Reservation</h2>
-                    <img src="img/onlineReservation.jfif" alt="">
-                <div class="optionsButtons">
-                    <p>View Promos</p><p>View Dishes</p><p>Order Online</p>
+            <div class="banner" id="banner">
+                <h3>Every day is a good day</h3>
+                <p>"we serve foods that are never getting old"</p>
+                <img src="img/banner1.jfif" alt="">
+                <img src="img/banner2.jfif" alt="">
+                <img src="img/banner3.jfif" alt="">
+            </div>
+        </header>
+        <section class="topNotch" id="topNotch">
+            <h2>Top Notch Dishes</h2><br>
+            <div class="column">
+                <img src="img/topNotch1.jfif" alt="">
+                <img src="img/topNotch2.jfif" alt="">
+                <img src="img/topNotch3.jfif" alt="">
+            </div>
+            <div class="topNames">
+                <div class="turnip">
+                    <h4>CHINESE TURNIP CAKE</h4>
+                    <p>Festive dish for Chinese holidays.<br>Php 1,200.00</p>
+                </div>
+                <div class="beefsteak">
+                    <h4>BEEFSTEAK</h4>
+                    <p>Cut from beef cattle while steak is<br> a slice of beef.
+                    <br>Php 1,200.00</p>
+                </div>
+                <div class="spag">
+                    <h4>MUSCHEL-SPAGHETTI</h4> 
+                    <p>Both the spaghetti and the mussels<br>cook together with the tomato sauce<br>in just one saucepan.<br>Php 1,500.00
+                </div>
+        <section class="others" id="others">
+            <div class="titles">
+                <div class="deals">
+                    <h2>Latest<br>Deals</h2>
+                </div>
+                <div class="menus">
+                    <h2>Menus</h2>
+                </div>
+                <div class="online">
+                    <h2>Online <br>Reservation</h2>
+                </div>
+            </div>
+            <div class="column">
+                <img src="img/latestDeals.png" alt="">
+                <img src="img/menu.jfif" alt="">
+                <img src="img/onlineReservation.jfif" alt="">   
+            </div>
+            <div class="buttons">
+                <div class="deals">
+                    <p>View Promos</p>
+                </div>
+                <div class="menus">
+                    <p>View Dishes</p>
+                </div>
+                <div class="online">
+                    <p>Order Online</p>
                 </div>
             </div>
         </section>
-        <footer>
-            <p>Contact Information</p>
+        <footer class="contacts" id="contacts">
+            <h2>Contact Information</h2>
+            <p>Email us with any questions or inquiries or cal 123-456-7890.
+                We would be happy to answer your questions and set up a meeting with you. 
+                Or you can message us through our social media pages.</p>
             <div class="mediaButtons">
-                <a href="#"><i class="fab fa-facebook-square"></i></a>
-                <a href="#"><i class="fab fa-instagram-square"></i></a>
-                <a href="#"><i class="fab fa-twitter-square"></i></a>
-                <a href="#"><i class="fab fa-envelope-square"></i></a>
+                <a href="#" id="facebook"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" id="instagram"><i class="fab fa-instagram-square"></i></a>
+                <a href="#" id="twitter"><i class="fab fa-twitter-square"></i></a>
+                <a href="#" id="gmail"><i class="fas fa-envelope-square"></i></a>
             </div>
         </footer>
     </body>

@@ -1,0 +1,270 @@
+body{
+    background-color: #B2BEB5;
+}
+.header{
+    color: #F5F5F5;
+    font-size: medium;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    width: -webkit-fill-available;
+    height: 718px;
+}
+h1{
+    color: #F5F5F5;
+    text-align: justify;
+    margin-left: 50px;
+    margin-top: 41px;
+    font-size: 164px;
+    font-family: 'Cookie', cursive;
+    line-height: 121px;
+}
+h1 span{
+    margin-left: 79px
+}
+.menu{
+    word-spacing: 7px;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 150px;
+    margin-top: -321px;
+    font-family: revert;
+    transition: 0.3s;
+    transition-property: all;
+}
+
+#homeMenu{
+    color: oldlace;
+}
+#homeMenu:hover{
+    text-decoration: none;
+}
+#topNotchMenu{
+    color: oldlace;
+}
+#topNotchMenu:hover{
+    text-decoration: none;
+}
+#dealsMenu{
+    color: oldlace;
+}
+#dealsMenu:hover{
+    text-decoration: none;
+}
+#contactsMenu{
+    color: oldlace;
+    word-spacing: 2px;
+}
+#contactsMenu:hover{
+    text-decoration: none;
+}
+.banner img{
+    width: 218px;
+    margin-left: -8px;
+    margin-right: 50px;
+    justify-content: right;
+    margin-top: -160px;
+    border-radius: 20px;
+    opacity: 0.6;
+}
+h3{
+    font-size: 69px;
+    margin-block-end: -21px;
+    text-align: justify;
+    margin-left: 820px;
+    color: #676767;
+    margin-top: 93px;
+    margin-right: 99px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.banner p{
+    font-size: 41px;
+    margin-block-end: -22px;
+    text-align: center;
+    margin-top: 56px;
+    margin-left: 800px;
+    margin-right: 50px;
+    font-family: 'Lobster', cursive;
+    color: #B2BEB5;
+}
+
+.topNotch{
+    font-size: medium;
+    left: 0px;
+    width: -webkit-fill-available;
+    background-color: #808080;
+    height: 770px;
+    margin-top: 770px;
+}
+.topNotch h2{
+    font-size: 64px;
+    font-family: urbanist;
+    color: #B2BEB4;
+}
+.topNotch .column{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 100px;
+    height: 450px;
+    margin-left: 100px;
+    margin-top: -30px;
+}
+.topNotch .column img{
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+.turnip h4{
+    font-family: cursive;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-left: 100px;
+}
+.turnip p{
+    margin-left: 110px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;}
+
+.beefsteak h4{
+    font-family: cursive;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-left: 95px;
+    text-align: center;
+    margin-top: -130px;
+    margin-left: 0px;
+}
+.beefsteak p{
+    margin-left: 530px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+}
+.spag h4{
+    font-family: cursive;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: right;
+    margin-top: -145px;
+    margin-right: 106px
+}
+.spag p{
+    margin-left: 929px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+}
+
+
+.others{
+    font-size: medium;
+    left: 0px;
+    /* width: -webkit-fill-available; */
+    background-color: #808080;
+    height: 712px;
+    margin-top: 101px;
+}
+.deals h2{
+    text-align: center;
+    font-size: 64px;
+    font-family: urbanist;
+    color: #B2BEB4;
+    margin-left: -791px;
+}
+.menus h2{
+    font-size: 64px;
+    font-family: urbanist;
+    color: #B2BEB4;
+    text-align: center;
+    margin-top: -201px;
+}
+.online h2{
+    font-size: 64px;
+    font-family: urbanist;
+    color: #B2BEB4;
+    text-align: center;
+    margin-left: 760px;
+    margin-top: -134px;
+}
+.others .column{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 100px;
+    height: 450px;
+    margin-left: 100px;
+    margin-top: -30px;
+}
+.others .column img{
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+.deals p{
+    text-align: left;
+    margin-left: 155px;
+    font-size: 31px;
+    margin-top: 4px;
+    text-decoration: underline;
+    font-family: 'Urbanist';
+}
+.menus p{
+    text-align: center;
+    margin-left: -3px;
+    font-size: 31px;
+    margin-top: -66px;
+    text-decoration: underline;
+    font-family: 'Urbanist';
+}
+.online p{
+    text-align: right;
+    margin-right: 171px;
+    font-size: 31px;
+    margin-top: -67px;
+    text-decoration: underline;
+    font-family: 'Urbanist';
+}
+
+.contacts{
+    font-size: medium;
+    left: 0px;
+    /* width: -webkit-fill-available; */
+    background-color: #808080;
+    height: 350px;
+    margin-top: 83px;
+}
+.contacts p {
+    font-size: 32px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Urbanist';
+}
+#facebook{
+    color: black;
+}
+#instagram{
+    color: black;
+}
+#twitter{
+    color: black;
+}
+#gmail{
+    color: black;
+}
+
+.mediaButtons{
+    word-spacing: 32px;
+    font-size: 43px;
+    text-align: right;
+    margin-left: 100px;
+    margin-top: -2px;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
