@@ -70,7 +70,7 @@ body{
     margin-top: 142px;
     left: 0px;
     border: black solid;
-    height: 1400px;
+    height: 2050px;
     width: -webkit-fill-available;
     display: inline-block;
 }
@@ -85,6 +85,15 @@ body{
 }
 
 .outputs .col2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 100px;
+    height: 450px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.outputs .col3{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -117,6 +126,12 @@ body{
     margin-left: 100px;
     margin-top: 43px;  
 }
+#img5{
+    margin-right: 100px;
+    height: 450px;
+    margin-left: 50px;
+    margin-top: 43px;  
+}
 
 #link1{
     line-height: 6.5;
@@ -142,9 +157,9 @@ body{
     text-decoration: none;
 }
 #link2:hover{
-    background-color: lightgrey;
-    
+    background-color: lightgrey;   
 }
+
 #link3{
     line-height: 6.5;
     font-family: monospace;
@@ -173,6 +188,19 @@ body{
 }
 #link4:hover{
     background-color: lightgrey;
+}
+#link5{
+    line-height: 6.5;
+    font-family: monospace;
+    margin-left: 170px;
+    font-size: 23px;
+    margin-right: 196px;
+    color: chocolate;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#link5:hover{
+    background-color: lightgrey;   
 }
 h2{
     text-align: center;
