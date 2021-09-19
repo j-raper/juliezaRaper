@@ -333,9 +333,6 @@ h4{
     border-radius: 5px;
     color: #3a3635;
 }
-.gender{
-    display: flex;
-}
 .personalInformation{
     font-size: 15px;
     margin-top: -11px;
@@ -363,7 +360,7 @@ h4{
     margin-bottom: 20px;
 }
 .personalInformation.success input{
-    border-color: seagreen;
+    border-color: green;
 }
 .personalInformation.error input{
     border-color: red;

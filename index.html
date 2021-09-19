@@ -87,67 +87,59 @@
             </td>
             <td rowspan="3" class="rowspan3">
                 <h4>Enjoy and be excited!</h4>
-                <div class="personalInformation" id="personalInformation">
-                    <div class="firstname" success>
-                        <label for="firstname">First Name:</label>
-                        <input type="text" name="firstname" id="firstname" placeholder="Enter First Name" required>
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i></i>
-                        <small>Error message</small>
+                <form class="form" id="form"> 
+                    <div class="personalInformation" id="personalInformation">
+                            <label for="firstname">First Name:</label>
+                            <input type="text" name="firstname" id="firstname" placeholder="Enter First Name">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i></i>
+                            <small>Error message</small>
                     </div>
-                    <div class="lastname">
+                    <div class="personalInformation" id="personalInformation">
                         <label for="lastname">Last Name:</label>
-                        <input type="text" name="lastname" id="lastname" placeholder="Enter Last Name" required>
+                        <input type="text" name="lastname" id="lastname" placeholder="Enter Last Name">
                         <i class="fas fa-check-circle"></i>
                         <i class="fas fa-exclamation-circle"></i></i>
                         <small>Error message</small>
                     </div>
-                    <div class="suffix">
+                    <div class="personalInformation" id="personalInformation">
                         <label for="suffix">Suffix:</label>
-                        <input type="text" name="middlename" id="middlename" placeholder="Enter Suffix">
+                        <input type="text" name="suffix" id="suffix" placeholder="Enter Suffix">
                         <i class="fas fa-check-circle"></i>
                         <i class="fas fa-exclamation-circle"></i></i>
                         <small>Error message</small>
                     </div>
-                    <div class="email">
+                    <div class="personalInformation" id="personalInformation">
                         <label for="email">Email:</label>
-                        <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i></i>
-                        <small>Error message</small>
-                    </div> 
-                    <div class="gender">
-                        <label for="male">Gender: </label>
-                        <label for="male">Male</label>
-                        <input type="radio" name="gender" id="male" value="male" placeholder="Select Gender" required>
-                        <label for="female">Female</label>
-                        <input type="radio" name="gender" id="female" value="female" placeholder="Select Gender">
+                        <input type="email" name="email" id="email" placeholder="example@gmail.com">
                         <i class="fas fa-check-circle"></i>
                         <i class="fas fa-exclamation-circle"></i></i>
                         <small>Error message</small>
                     </div>
-                    <div class="phone">
+                    <div class="personalInformation" id="personalInformation">
                         <label for="phone">Phone Contact:</label>
-                        <input type="tel" name="phone" id="phone" minlength="5" maxlength="11" placeholder="09*********" required>
+                        <input type="tel" name="phone" id="phone" minlength="5" maxlength="11" placeholder="09*********">
                         <i class="fas fa-check-circle"></i>
                         <i class="fas fa-exclamation-circle"></i></i>
                         <small>Error message</small>
                     </div>
-                    <div>
-                        <label for="prioritygroup">Choose type of Website:</label>
-                            <select name="prioritygroup" id="prioritygroup">
-                                <option value="prioritygroup">Choose type of Website:</option>
-                                <option value="HealthWorkers">Blog</option>
-                                <option value="HealthWorkers">Business Website</option>
+                    <div class="personalInformation" id="personalInformation">
+                        <label for="choosewebsite">Choose type of Website:</label>
+                            <select name="choosewebsite" id="choosewebsite" required>
+                                <option value="choosewebsite">Choose type of Website:</option>
+                                <option value="blog">Blog</option>
+                                <option value="businesswebsite">Business Website</option>
                             </select>
                             <i class="fas fa-check-circle"></i>
                             <i class="fas fa-exclamation-circle"></i></i>
                             <small>Error message</small>
                     </div>
-                    </div>
-                <div class="button">
-                    <button type="submit">Submit</button>
-                </div>
+                    <div class="button">
+                        <button type="submit">Submit</button>
+                     </div>
+                </form>
+                <script src="index.js">
+                </script>
             </td>
         </tr>
         </tbody>
