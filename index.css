@@ -15,7 +15,7 @@ body{
 }
 .menu{
     word-spacing: 7px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: right;
     margin-right: 100px;
     margin-top: -44px;
@@ -32,16 +32,25 @@ body{
 #aboutMeMenu:hover{
     background-color: oldlace;
 }
-
+#offersMenu:hover{
+    background-color: oldlace;
+}
 #homeMenu{
     color: oldlace;
+    text-decoration: none;
 }
 #outputMenu{
     color: black;
+    text-decoration: none;
+}
+#offersMenu{
+    color: black;
+    text-decoration: none;
 }
 #aboutMeMenu{
     color: black;
-    word-spacing: 2px;
+    word-spacing: 1px;
+    text-decoration: none;
 }
 .mediaButtons{
     word-spacing: 12px;
@@ -70,7 +79,7 @@ body{
     margin-top: 142px;
     left: 0px;
     border: black solid;
-    height: 2050px;
+    height: 1425px;
     width: -webkit-fill-available;
     display: inline-block;
 }
@@ -91,7 +100,7 @@ body{
     margin-right: 100px;
     height: 450px;
     margin-left: 100px;
-    margin-top: 50px;
+    margin-top: -54px;
 }
 .outputs .col3{
     display: flex;
@@ -100,51 +109,54 @@ body{
     margin-right: 100px;
     height: 450px;
     margin-left: 100px;
-    margin-top: 50px;
+    margin-top: -54px;
 }
 #img1{
     margin-right: 100px;
-    height: 450px;
+    height: 315px;
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 43px;
 }
 #img2{
-    margin-right: 50px;
-    height: 450px;
-    margin-left: 100px;
-    margin-top: 50px;   
+    margin-right: 100px;
+    height: 315px;
+    margin-left: 50px;
+    margin-top: 43px;
 }
 #img3{
     margin-right: 100px;
-    height: 450px;
+    height: 315px;
     margin-left: 50px;
     margin-top: 43px;
 }
 #img4{
-    margin-right: 50px;
-    height: 450px;
-    margin-left: 100px;
-    margin-top: 43px;  
+    margin-right: 100px;
+    height: 315px;
+    margin-left: 50px;
+    margin-top: 43px;
 }
 #img5{
     margin-right: 100px;
-    height: 450px;
+    height: 315px;
     margin-left: 50px;
-    margin-top: 43px;  
+    margin-top: 43px; 
 }
 
+.links{
+    margin-top: -130px;
+}
 #link1{
     line-height: 6.5;
     font-family: monospace;
-    margin-left: 157px;
-    margin-right: 115px;
+    margin-left: 187px;
+    margin-right: 16px;
     font-size: 23px;
-    color: chocolate;
+    color: #eb906e;
     font-weight: bolder;
     text-decoration: none;
 }
 #link1:hover{
-    background-color:lightgrey;
+    background-color: black;
     
 }
 #link2{
@@ -152,27 +164,27 @@ body{
     font-family: monospace;
     font-size: 23px;
     margin-left: 267px;
-    color: chocolate;
+    color: #eb906e;
     font-weight: bolder;
     text-decoration: none;
 }
 #link2:hover{
-    background-color: lightgrey;   
+    background-color: black;
 }
 
 #link3{
     line-height: 6.5;
     font-family: monospace;
-    margin-left: 85px;
+    margin-left: 120px;
     font-size: 23px;
-    margin-right: 196px;
-    color: chocolate;
+    margin-right: 90px;
+    color: #eb906e;
     text-decoration: none;
     font-weight: bolder;
     
 }
 #link3:hover{
-    background-color: lightgrey;
+    background-color: black;
     
 }
 #link4{
@@ -180,27 +192,27 @@ body{
     font-family: monospace;
     margin-left: 159px;
     font-size: 23px;
-    color: chocolate;
+    color: #eb906e;
     font-weight: bolder;
     text-decoration: none;
     
 
 }
 #link4:hover{
-    background-color: lightgrey;
+    background-color: black;
 }
 #link5{
     line-height: 6.5;
     font-family: monospace;
-    margin-left: 170px;
+    margin-left: 200px;
     font-size: 23px;
     margin-right: 196px;
-    color: chocolate;
+    color: #eb906e;
     text-decoration: none;
     font-weight: bolder;
 }
 #link5:hover{
-    background-color: lightgrey;   
+    background-color: black;
 }
 h2{
     text-align: center;
@@ -247,7 +259,19 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
 }
+.offers{
+    background-color: honeydew;
+    color: black;
+    font-size: medium;
+    margin-top: 142px;
+    left: 0px;
+    border: black solid;
+    height: 643px;
+    width: -webkit-fill-available;
+    display: inline-block;
 
+}
+/*FOR ABOUT ME*/
 .aboutMe{
     background-color: honeydew;
     color: black;
@@ -255,7 +279,7 @@ h1{
     margin-top: 142px;
     left: 0px;
     border: black solid;
-    height: 450px;
+    height: 520px;
     width: -webkit-fill-available;
     display: inline-block;
 }
@@ -267,3 +291,129 @@ h1{
     font-family: fangsong;
     margin: 50px;
 }
+
+#blog{
+    line-height: 0.5;
+    font-family: monospace;
+    margin-left: 500px;
+    font-size: 23px;
+    color: #eb906e;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#blog:hover{
+    background-color: black;
+}
+
+/*FOR FORM*/
+
+table, th, td {
+    border: rosybrown solid;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-image: url(img/imgForm1.jpg);
+    opacity: 6.9;
+    margin: 0px;
+  }
+h4{
+    font-size: 25px;
+    margin-bottom: 37px;
+    margin-top: 8px;
+    color: #eb906e;
+    font-weight: 100px;
+    font-family: cursive;
+}
+.button{
+    margin-top: 30px;
+    background-color: #8d8d8d;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #3a3635;
+}
+.gender{
+    display: flex;
+}
+.personalInformation{
+    font-size: 15px;
+    margin-top: -11px;
+    position: static;
+    margin-left: 17px;
+}
+.personalInformation label{
+    display: table;
+    font-family: monospace;
+}
+.personalInformation input{
+    border: 2px solid;
+    border-radius: 4px;
+    display: block;
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.personalInformation select{
+    border: 2px solid;
+    border-radius: 4px;
+    display: block;
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.personalInformation.success input{
+    border-color: seagreen;
+}
+.personalInformation.error input{
+    border-color: red;
+}
+.personalInformation i {
+    visibility: hidden;
+    position: absolute;
+    top: 40px;
+    right: 10px;    
+}
+.personalInformation.success i.fa-check-circle {
+    color: seagreen;
+    visibility: visible;
+}
+.personalInformation.error i.fa-exclamation-circle {
+    color: red;
+    visibility: visible;
+}
+.personalInformation small{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.personalInformation.error small{
+    color: red;
+    visibility: hidden;
+}
+td {
+    padding: 10px;
+}
+.persuade{
+    font-size: 25px;
+    font-weight: initial;
+    color: black;
+    text-align: center;
+    font-family: monospace;
+    margin: 50px;
+    border-block-end: inherit;
+    background-color: burlywood;
+    border-collapse: separate;
+    border-radius: 5px;
+
+}
+.persuade span{
+    font-size: 40px;
+    font-weight: initial;
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    color:black;
+}
+
