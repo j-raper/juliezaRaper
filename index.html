@@ -4,144 +4,555 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Julieza Raper - Digital Portfolio</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Julieza - The Tech-Savvy Girl</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    
+
+    <!-- font style starts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <!-- font style ends-->
+
 </head>
-<body>
-    <header class="header" id="header">
-        <h1>Digital Portfolio</h1>
-        <div class="menu">
-            <a href="#banner" id="homeMenu">Home</a>
-            <a href="#outputs" id="outputMenu">Outputs</a>
-            <a href="#aboutMe" id="aboutMeMenu">About Me</a>
-            <a href="#offers" id="offersMenu">Offers</a>
-            
+<body class="bg-light">
+
+<style>
+    #techsavvy{
+        font-size: 60px;
+        font-family: 'Zilla Slab', serif; 
+    }
+    #techsavvy span{
+        font-size: 75px;
+        text-transform:initial;
+        font-family: 'Dancing Script', cursive;
+    }
+    #brand{
+        font-family: 'Sacramento', cursive;
+    }
+    #wintech{
+        font-size: 20px;
+    }
+    #map {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    body::before {
+        display: block;
+        content: '';
+        height: 60px;
+    }
+    #rowmap{
+        height: 400px;
+    }
+</style>
+
+<!-- navbar start -->
+<nav class="navbar bg-dark navbar-light fixed-top bg-light shadow-sm ">
+    <div class="container-lg">
+    <a class="navbar-brand text-info fw-bold btn fs-4" id="brand" href="#home">tech-savvy</a>
+    <div class="dropdown">
+        <button class="btn btn-secondary btn-info px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#home">Home</a></li>
+            <li><a class="dropdown-item" href="#about">About</a></li>
+            <li><a class="dropdown-item" href="#services">Services</a></li>
+            <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+            <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
+            <li><a class="dropdown-item" href="#contact">Contacts</a></li>
+        </ul>
         </div>
-        <div class="mediaButtons" >
-            <a href="https://www.facebook.com/juliezajanebella" target="_blank" id="facebook"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://www.instagram.com/baejuja_/" target="_blank" id="instagram"><i class="fab fa-instagram-square"></i></a>
-            <a href="https://twitter.com/baejuja_" target="_blank" id="twitter"><i class="fab fa-twitter-square"></i></a>
-        </div>
-    </header>
-    <section class="banner" id="banner">
-        <div>
-            <img src="img/me.jpg" alt="Logo Pic" id="logoPic">
-            <div>
-                <h3>the tech-savvy girl</h3>
-            </div>  
-        </div>
-    </section>
-    <section class="outputs" id="outputs">
-        <h2>Outputs</h2>
-            <div class="col1">
-                <img src="img/Technology Trends Gallery.jpeg" alt="techno trends" id="img1">         
-                <img src="img/My Restaurant.jpeg" alt="restaurant" id="img2">
-            </div>
-            <div class="links">
-                <a href="demopages/bootstrap/html/bootsrap.html" target="_blank" id="link1">Technology Trends Gallery</a>
-                <a href="demopages/restaurant/myrestaurant.html" target="_blank" id="link2">Restaurant Website</a>
-            </div>
-            <div class="col2">
-                <img src="img/COVID-19 Vaccination Scheduling Form.png" alt="covid" id="img3">         
-                <img src="img/Tribute Page.jpeg" alt="tribute" id="img4">
-            </div>
-            <div class="links">
-                <a href="demopages/form/vaccination.html" target="_blank" id="link3">COVID-19 Vaccination Scheduling Form</a> 
-                <a href="demopages/tribute/tribute.html" target="_blank" id="link4">Tribute Page</a>
-            </div>
-            <div class="col3">
-                <img src="img/ECMAScript Video Review.png" alt="girl with laptop" id="img5">
-            </div>
-            <div class="links">
-                <a href="demopages/videoReview/myreviewonecmascript.html" target="_blank" id="link5">ECMAScript Video Review</a>
-            </div>
-    </section>
-    <section class="aboutMe" id="aboutMe">
-        <h2>About Me</h2>
-            <p class="message">Good day.
-                I am <strong>Julieza Jane Bella A. Raper</strong>, currently studying for a <em>Bachelor of Science in 
-                Computer Science</em> . A 2nd-year student who took the course of Web Application 
-                Development at The University of the Immaculate Concepcion. As I created this project
-                - <em>My Digital Portfolio</em>, I hope you will enjoy this website as I also enjoy creating it.
-                <br><br>My Digital Portfolio showcases my Web App Development journey. This website is
-                able you to reckon the outputs that I made. Accommodate you with information 
-                such as technology trends, restaurant website,
-                COVID-19 Vaccination Form, Video Review, ultimately, a Tribute Page where I put my admiration
-                of this person who inpires me with this journey. Enjoy and have fun!</p>
-            <a href="https://juliezajanebella.wixsite.com/aloha" target="_blank" id="blog">Visit my Personal Blog</a>
-    </section>
-    <section class="offers" id="offers">
-    <table>
-        <tbody>
-        <tr>
-            <td rowspan="2">        
-                <div class="persuade">
-                    <p><span>Are you interested</span> to have your own business website or blog? 
-                        You can now join forces with me. I would be happy to answer 
-                        your inquries and set up a meeting with you.
-                        Fill-in the form to begin our negotations.</p>   
+    </div>
+</nav>
+<!-- navbar end -->
+
+<!-- home section start -->
+<section class="home bg-dark py-1" id="home">
+    <div class="container-lg py4 p-5">
+        <div class="row min-vh-100 align-items-center align-content-center">
+            <div class="col-md-6 mt-5 mt-md-0">
+                <div class="home-img text-center">
+                    <img src="img/me-gif.gif" class="rounded-circle  mw-100" alt="girl">
                 </div>
-            </td>
-            <td rowspan="3" class="rowspan3">
-                <h4>Enjoy and be excited!</h4>
-                <form class="form" id="form"> 
-                    <div class="personalInformation" id="personalInformation">
-                            <label for="firstname">First Name:</label>
-                            <input type="text" name="firstname" id="firstname" placeholder="Enter First Name">
-                            <i class="fas fa-check-circle"></i>
-                            <i class="fas fa-exclamation-circle"></i></i>
-                            <small>Error message</small>
+            </div>
+            <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                <div class="home-test">
+                    <p class="text-light text-uppercase fw-bold" id="techsavvy">Tech-Savvy <span class="text-info">Girl</span></p>
+                    <p class="mt-1 text-muted" id="wintech">Future Computer Scientist <br>#womenintech</p>
+                    <a href="#portfolio" class="btn btn-info px-3 mt-3 font-awesome fw-italic">My Works</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- home section end -->
+
+<!-- about section start -->
+<section class="about p-5" id="about">
+    <div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5">About Me</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="about-text">
+                    <h3 class="fs-4 mb-3">The Tech-Savvy Girl</h3>
+                    <p class="text-muted">Good day. I am Julieza Jane Bella A. Raper, currently studying for a Bachelor of Science in Computer Science.
+                        A 2nd-year student who took the course of Web Application Development at The University of the Immaculate Concepcion.
+                        As I created my Digital Portfolio - tech-savvy, I hope you will enjoy this website as I also enjoy creating it. Have fun!
+                </div>
+                <div class="row text-center text-uppercase my-3">
+                    <div class="col-sm-4">
+                        <div class="fact-item">
+                            <h4 class="fs-1 fw-bold">100</h4>
+                            <p class="text-muted">Project Completed</p>
+                        </div>
                     </div>
-                    <div class="personalInformation" id="personalInformation">
-                        <label for="lastname">Last Name:</label>
-                        <input type="text" name="lastname" id="lastname" placeholder="Enter Last Name">
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i></i>
-                        <small>Error message</small>
+                    <div class="col-sm-4">
+                        <div class="fact-item">
+                            <h4 class="fs-1 fw-bold">99</h4>
+                            <p class="text-muted">Happy Self</p>
+                        </div>
                     </div>
-                    <div class="personalInformation" id="personalInformation">
-                        <label for="suffix">Suffix:</label>
-                        <input type="text" name="suffix" id="suffix" placeholder="Enter Suffix">
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i></i>
-                        <small>Error message</small>
+                    <div class="col-sm-4">
+                        <div class="fact-item">
+                            <h4 class="fs-1 fw-bold">100</h4>
+                            <p class="text-muted">Positive Mindset</p>
+                        </div>
                     </div>
-                    <div class="personalInformation" id="personalInformation">
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" id="email" placeholder="example@gmail.com">
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i></i>
-                        <small>Error message</small>
+                </div>
+                <div class="row">
+                    <div class="col-lg-10 d-flex align-items-center">
+                        <a href="https://juliezajanebella.wixsite.com/aloha" target="_blank" class="btn px-3 btn-info me-5">Visit My Blog</a>
+                        <div class="social-link">
+                            <a href="https://www.facebook.com/juliezajanebella/" target="_blank" class="text-dark me-2"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/baejuja_/" target="_blank" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
+                            <a href="https://twitter.com/baejuja_" target="_blank" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
+                        </div>
                     </div>
-                    <div class="personalInformation" id="personalInformation">
-                        <label for="phone">Phone Contact:</label>
-                        <input type="tel" name="phone" id="phone" minlength="5" maxlength="11" placeholder="09*********">
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i></i>
-                        <small>Error message</small>
+                </div>
+            </div>
+            <div class="col-md-6 mt-5 mt-md-0">
+                <div class="skill-item mb-4">
+                    <h3 class="fs-6">HTML</h3>
+                    <div class="progress" style="height: 5px;">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <div class="personalInformation" id="personalInformation">
-                        <label for="choosewebsite">Choose type of Website:</label>
-                            <select name="choosewebsite" id="choosewebsite" required>
-                                <option value="choosewebsite">Choose type of Website:</option>
-                                <option value="blog">Blog</option>
-                                <option value="businesswebsite">Business Website</option>
-                            </select>
-                            <i class="fas fa-check-circle"></i>
-                            <i class="fas fa-exclamation-circle"></i></i>
-                            <small>Error message</small>
+                </div>
+                <div class="skill-item mb-4">
+                    <h3 class="fs-6">CSS</h3>
+                    <div class="progress" style="height: 5px;">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <div class="button">
-                        <button type="submit">Submit</button>
-                     </div>
-                </form>
-                <script src="index.js">
-                </script>
-            </td>
-        </tr>
-        </tbody>
-    </table>
-    </section>
-    </body>
+                </div>
+                <div class="skill-item mb-4">
+                    <h3 class="fs-6">JavaScript</h3>
+                    <div class="progress" style="height: 5px;">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill-item mb-4">
+                    <h3 class="fs-6">Bootstrap</h3>
+                    <div class="progress" style="height: 5px;">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill-item mb-4">
+                    <h3 class="fs-6">Java</h3>
+                    <div class="progress" style="height: 5px;">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- about section end -->
+
+<!-- service section start -->
+<section class="sevices py-5" id="services">
+    <div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5">Services</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="service-item shadow-sm py-4 rounded bg-white">
+                    <div class="icon my-3 text-info fs-2">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h2 class="fs-5 py-2">Web Development</h2>
+                    <p class="text-muted">Designed and Developed Websites</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="service-item shadow-sm py-4 rounded bg-white">
+                    <div class="icon my-3 text-info fs-2">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h2 class="fs-5 py-2">Creative Design</h2>
+                    <p class="text-muted">Created a graphic design using Photoshop</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="service-item shadow-sm py-4 rounded bg-white">
+                    <div class="icon my-3 text-info fs-2">
+                        <i class="fas fa-camera-retro"></i>
+                    </div>
+                    <h2 class="fs-5 py-2">Photography</h2>
+                    <p class="text-muted">Enhanced photos using Adobe Lightroom</p>
+                </div>
+            </div>
+        </div>
+    </div> 
+</section>
+<!-- service section end -->
+
+<!-- portfolio section start -->
+<section class="portgolio bg-white py-5" id="portfolio">
+    <div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5">Latest Works</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="img/portfolio/1.jpeg" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <h3 class="text-capitalize fs-5 my-2">ethereal restaurant website</h3>
+                    <p class="mb-4"><a href="./demopages/restaurant/myrestaurant.html" target="_blank" class="text-info text-decoration-none">View More</a></p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="img/portfolio/2.jpeg" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <h3 class="text-capitalize fs-5 my-2">technology trends gallery</h3>
+                    <p class="mb-4"><a href="./demopages/gallery/gallery.html" target="_blank" class="text-info text-decoration-none">View More</a></p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="img/portfolio/3.jpeg" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <h3 class="text-capitalize fs-5 my-2">tribute page</h3>
+                    <p class="mb-4"><a href="./demopages/tribute/tribute.html" target="_blank" class="text-info text-decoration-none">View More</a></p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="img/portfolio/4.png" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <h3 class="text-capitalize fs-5 my-2">COVID-19 Vaccination Scheduling Form</h3>
+                    <p class="mb-4"><a href="./demopages/form/vaccination.html" class="text-info text-decoration-none" target="_blank">View More</a></p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="img/portfolio/5.png" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <h3 class="text-capitalize fs-5 my-2">ECMAScript Video Review</h3>
+                    <p class="mb-4"><a href="./demopages/videoReview/myreviewonecmascript.html" class="text-info text-decoration-none" target="_blank">View More</a></p>                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="img/portfolio/5.png" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <h3 class="text-capitalize fs-5 my-2">Web Application Idea</h3>
+                    <p class="mb-4"><a href="#" class="text-info text-decoration-none" target="_blank">View More</a></p>                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- portfolio section end -->
+
+<!-- creative design section start -->
+<section class="portgolio bg-white py-5" id="portfolio">
+    <div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5">Creative Design</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="img/portfolio/eiffelTower.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="img/portfolio/fireBreathe.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="img/portfolio/reincarnatedCat.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- creative design section end -->
+
+<!-- photography section start -->
+<section class="portgolio bg-white py-5" id="portfolio">
+    <div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5">Photography</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="img/portfolio/7.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="img/portfolio/8.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="img/portfolio/12.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="img/portfolio/10.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="img/portfolio/11.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="img/portfolio/9.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- photography section end -->
+
+<!-- freelancer available section start -->
+<section class="freelancer-available py-5 bg-secondary"> 
+    <div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <p class="text-light fs-5">Don't have a business website, what are you waiting for?</p>
+                <h2 class="fs-1 text-white mb-4 text-uppercase">You can now join forces with me</h2>
+                <p class="text-light fs-5">I am a Freelancer</p>
+                <a href="#contact" class="btn btn-outline-light">Hire Me</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- freelancer available section end -->
+
+<!-- testimonials section start -->
+<section class="testimonials py-5" id="testimonials">   
+    <div class="container-lg">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5">Testimonials</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+                <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active bg-info"></li>
+                      <li class="bg-info" data-bs-target="#carousel1" data-bs-slide-to="1"></li>
+                      <li class="bg-info" data-bs-target="#carousel1" data-bs-slide-to="2"></li>
+                    </ol>
+                <div class="carousel-inner p-1">
+                <!-- testi item start -->
+                <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4 mb-5">
+                    <div class="testi-author-info d-flex align-items-center">
+                        <img src="img/testimonial/1.jpg" class="img-thumbnail rounded-circle" alt="author img">
+                        <div class="author ms-3">
+                            <h3 class="fs-6 mb-1">Cherryl Anne Abella</h3>
+                            <p class="text-muted m-0">Accountancy Student</p>
+                        </div>
+                    </div>
+                    <p class="text-muted mt-3">Great Web Developer</p>
+                    <div class="rating text-info">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <!-- testi item end -->
+                <!-- testi item start -->
+                <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                    <div class="testi-author-info d-flex align-items-center">
+                        <img src="img/testimonial/2.jpg" class="img-thumbnail rounded-circle" alt="author img">
+                        <div class="author ms-3">
+                            <h3 class="fs-6 mb-1">Lea Charlisse Pauline Fernandez</h3>
+                            <p class="text-muted m-0">Tourism Student</p>
+                        </div>
+                    </div>
+                    <p class="text-muted mt-3">Good Partner. Thankful for our negotiation.</p>
+                    <div class="rating text-info">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <!-- testi item end -->
+                <!-- testi item start -->
+                <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                    <div class="testi-author-info d-flex align-items-center">
+                        <img src="img/testimonial/3.jpg" class="img-thumbnail rounded-circle" alt="author img">
+                        <div class="author ms-3">
+                            <h3 class="fs-6 mb-1">Shiekha Grace Daño</h3>
+                            <p class="text-muted m-0">Accountancy Student</p>
+                        </div>
+                    </div>
+                    <p class="text-muted mt-3">Nice website. So Neat</p>
+                    <div class="rating text-info">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <!-- testi item end -->
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- testimonials section end -->
+
+<!-- contact section start -->
+<section class="contact py-5" id="contact">   
+    <div class="container-lg">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5">Contact Me</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="contact-item d-flex mb-3">
+                    <div class="icon fs-4 text-info">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="text ms-3">
+                        <h3 class="fs-5">Email</h3>
+                        <p class="text-muted m-0">juliezaraper@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item d-flex mb-3">
+                    <div class="icon fs-4 text-info">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="text ms-3">
+                        <h3 class="fs-5">Phone</h3>
+                        <p class="text-muted m-0">Smart: 0931-7034-573</p>
+                        <p class="text-muted m-0">Globe: 0927-5681-209</p>
+                    </div>
+                </div>
+                <div class="contact-item d-flex mb-3">
+                    <div class="icon fs-4 text-info">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="text ms-3">
+                        <h3 class="fs-5">Visit Office</h3>
+                        <p class="text-muted m-0">Upper Street, Brgy. Tawid, Anda, Bohol</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="contact-form">
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-6 mb-4">
+                                <input type="text" placeholder="Your Name" class="form-control form-control-lg fs-6 border shadow-sm" id="">
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <input type="text" placeholder="Your Email" class="form-control form-control-lg fs-6 border shadow-sm" id="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 mb-4">
+                                <textarea rows="5" placeholder="Your Message" class="form-control form-control-lg fs-6 border shadow-sm" id=""></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <button type="submit" class="btn btn-info px-3">Send message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+                <div class="row g-4  py-2" id="rowmap">
+                  <div class="col-md">
+                    <div id="map">
+                    </div>
+                  </div>
+                </div>
+        </div>
+    </div>
+</section>
+<!-- contact section end -->
+
+<!-- footer start -->
+<footer class="footer border-top py-3 bg-dark">
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="m-0 text-center text-white">&copy; 2021 The Tech-Savvy Girl</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer end -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoianVsaWV6YXJhcGVyIiwiYSI6ImNrdTNpc3oxODEwamcybm5paHdyYjV5Y2cifQ.hO3QeFKSkRP6HT5OQ3EjSg';
+    var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v11',
+    center:[124.57629691972397,9.743319208368135],
+    zoom: 17.5,
+    });
+  </script>
+</body>
 </html>
