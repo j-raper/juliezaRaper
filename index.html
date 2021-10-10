@@ -44,6 +44,80 @@
     #rowmap{
         height: 400px;
     }
+    #food{
+        flex-grow: 1;
+        transition: all 400ms ease;
+    }
+    @keyframes zoom-in-zoom-out {
+        0% {
+        transform: scale(1, 1);
+        }
+        50% {
+        transform: scale(1.5, 1.5);
+        }
+        100% {
+        transform: scale(1, 1);
+        }
+    }
+    #webDev { 
+        animation: zoom-in-zoom-out 2s ease-out infinite;
+    }
+    #design { 
+        animation: zoom-in-zoom-out 2s ease-out infinite;
+    }
+    #camera{ 
+        animation: zoom-in-zoom-out 2s ease-out infinite;
+    } 
+    @keyframes zoom-in {
+        30% {
+        transform: scale(1.5, 1.5);
+        }
+    }  
+    #img1:hover{
+        animation: zoom-in 2s ease-out infinite;
+    }
+    #img2:hover{
+        animation: zoom-in 2s ease-out infinite;
+    }
+    #img3:hover{
+        animation: zoom-in 2s ease-out infinite;
+    }
+    #img4:hover{
+        animation: zoom-in 2s ease-out infinite;
+    }
+    #img5:hover{
+        animation: zoom-in 2s ease-out infinite;
+    }
+    #img6:hover{
+        animation: zoom-in 2s ease-out infinite;
+    }
+    #img7:hover{
+        animation: zoom-in 2s ease-out infinite;
+    }
+    #img8:hover{
+        animation: zoom-in 2s ease-out infinite;
+    }
+    #img9:hover{
+        animation: zoom-in 2s ease-out infinite;
+    }
+    #img10:hover{
+        animation: zoom-in 2s ease-out infinite;
+    }
+    #img11:hover{
+        animation: zoom-in 2s ease-out infinite;
+    }
+    #img12:hover{
+        animation: zoom-in 2s ease-out infinite;
+    }
+    #img13:hover{
+        animation: zoom-in 2s ease-out infinite;
+    }
+    #img14:hover{
+        animation: zoom-in 2s ease-out infinite;
+    }
+    #img15:hover{
+        animation: zoom-in 2s ease-out infinite;
+    }
 
 </style>
 
@@ -188,7 +262,7 @@
         <div class="row text-center">
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="service-item shadow-sm py-4 rounded bg-white">
-                    <div class="icon my-3 text-info fs-2">
+                    <div class="icon my-3 text-info fs-2" id="webDev">
                         <i class="fas fa-code"></i>
                     </div>
                     <h2 class="fs-5 py-2">Web Development</h2>
@@ -197,7 +271,7 @@
             </div>
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="service-item shadow-sm py-4 rounded bg-white">
-                    <div class="icon my-3 text-info fs-2">
+                    <div class="icon my-3 text-info fs-2" id="design">
                         <i class="fas fa-magic"></i>
                     </div>
                     <h2 class="fs-5 py-2">Creative Design</h2>
@@ -206,7 +280,7 @@
             </div>
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="service-item shadow-sm py-4 rounded bg-white">
-                    <div class="icon my-3 text-info fs-2">
+                    <div class="icon my-3 text-info fs-2" id="camera">
                         <i class="fas fa-camera-retro"></i>
                     </div>
                     <h2 class="fs-5 py-2">Photography</h2>
@@ -231,41 +305,41 @@
         <div class="row text-center">
             <div class="col-md-6 col-lg-4">
                 <div class="portfolio-item">
-                    <img src="img/portfolio/1.jpeg" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <img src="img/portfolio/1.jpeg" class="w-100 img-thumbnail" alt="portfolio-item" id="img1">
                     <h3 class="text-capitalize fs-5 my-2">ethereal restaurant website</h3>
                     <p class="mb-4"><a href="./demopages/restaurant/myrestaurant.html" target="_blank" class="text-info text-decoration-none">View More</a></p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="portfolio-item">
-                    <img src="img/portfolio/2.jpeg" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <img src="img/portfolio/2.jpeg" class="w-100 img-thumbnail" alt="portfolio-item" id="img2">
                     <h3 class="text-capitalize fs-5 my-2">technology trends gallery</h3>
                     <p class="mb-4"><a href="./demopages/gallery/gallery.html" target="_blank" class="text-info text-decoration-none">View More</a></p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="portfolio-item">
-                    <img src="img/portfolio/3.jpeg" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <img src="img/portfolio/3.jpeg" class="w-100 img-thumbnail" alt="portfolio-item" id="img3">
                     <h3 class="text-capitalize fs-5 my-2">tribute page</h3>
                     <p class="mb-4"><a href="./demopages/tribute/tribute.html" target="_blank" class="text-info text-decoration-none">View More</a></p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="portfolio-item">
-                    <img src="img/portfolio/4.png" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <img src="img/portfolio/4.png" class="w-100 img-thumbnail" alt="portfolio-item" id="img4">
                     <h3 class="text-capitalize fs-5 my-2">COVID-19 Vaccination Scheduling Form</h3>
                     <p class="mb-4"><a href="./demopages/form/vaccination.html" class="text-info text-decoration-none" target="_blank">View More</a></p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="portfolio-item">
-                    <img src="img/portfolio/5.png" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <img src="img/portfolio/5.png" class="w-100 img-thumbnail" alt="portfolio-item" id="img5">
                     <h3 class="text-capitalize fs-5 my-2">ECMAScript Video Review</h3>
                     <p class="mb-4"><a href="./demopages/videoReview/myreviewonecmascript.html" class="text-info text-decoration-none" target="_blank">View More</a></p>                </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="portfolio-item">
-                    <img src="img/portfolio/6.png" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <img src="img/portfolio/6.png" class="w-100 img-thumbnail" alt="portfolio-item" id="img6">
                     <h3 class="text-capitalize fs-5 my-2">Web Application Idea</h3>
                     <p class="mb-4"><a href="./demopages/webappidea/webappidea.html" class="text-info text-decoration-none" target="_blank">View More</a></p>                </div>
                 </div>
@@ -288,17 +362,17 @@
         <div class="row text-center">
             <div class="col-md-6 col-lg-4">
                 <div class="portfolio-item">
-                    <img src="img/portfolio/eiffelTower.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <img src="img/portfolio/eiffelTower.jpg" class="w-100 img-thumbnail" alt="portfolio-item" id="img7">
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="portfolio-item">
-                    <img src="img/portfolio/fireBreathe.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <img src="img/portfolio/fireBreathe.jpg" class="w-100 img-thumbnail" alt="portfolio-item" id="img8">
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="portfolio-item">
-                    <img src="img/portfolio/reincarnatedCat.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <img src="img/portfolio/reincarnatedCat.jpg" class="w-100 img-thumbnail" alt="portfolio-item" id="img9">
                 </div>
             </div>
         </div>
@@ -319,32 +393,32 @@
         <div class="row text-center">
             <div class="col-md-6 col-lg-4">
                 <div class="portfolio-item">
-                    <img src="img/portfolio/7.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <img src="img/portfolio/7.jpg" class="w-100 img-thumbnail" alt="portfolio-item" id="img10">
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="portfolio-item">
-                    <img src="img/portfolio/8.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <img src="img/portfolio/8.jpg" class="w-100 img-thumbnail" alt="portfolio-item" id="img11">
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="portfolio-item">
-                    <img src="img/portfolio/12.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <img src="img/portfolio/12.jpg" class="w-100 img-thumbnail" alt="portfolio-item" id="img12">
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="portfolio-item">
-                    <img src="img/portfolio/10.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <img src="img/portfolio/10.jpg" class="w-100 img-thumbnail" alt="portfolio-item" id="img13">
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="portfolio-item">
-                    <img src="img/portfolio/11.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <img src="img/portfolio/11.jpg" class="w-100 img-thumbnail" alt="portfolio-item" id="img4">
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="portfolio-item">
-                    <img src="img/portfolio/9.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <img src="img/portfolio/9.jpg" class="w-100 img-thumbnail" alt="portfolio-item" id="img15">
                 </div>
                 </div>
             </div>
@@ -549,6 +623,7 @@
     center:[124.57629691972397,9.743319208368135],
     zoom: 17.5,
     });
-  </script>
+</script>
+
 </body>
 </html>
